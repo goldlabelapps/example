@@ -49,11 +49,14 @@ export default function UserDialog() {
         <DialogContent>
           <Grid container spacing={1} sx={{ mb: 0 }}>
             <Grid size={{ xs: 12, md: 6 }}>
+              {user ? <User /> : <SignIn />}
+            </Grid>
+            <Grid size={{ xs: 12, md: 6 }}>
               <Box sx={{ mt: 3 }}>
                 <MenuSystem />
               </Box>
             </Grid>
-            <Grid size={{ xs: 12, md: 6 }}>{user ? <User /> : <SignIn />}</Grid>
+            
           </Grid>
         </DialogContent>
 
@@ -65,7 +68,7 @@ export default function UserDialog() {
         {user && isUberUser && (
           <Accordion sx={{ mx: 2, background: 0, boxShadow: 0 }}>
             <AccordionSummary expandIcon={<Icon icon="up" color="primary" />}>
-              User Data
+              UberUser
             </AccordionSummary>
             <AccordionDetails>
               <pre style={{ fontSize: '10px', margin: 0 }}>

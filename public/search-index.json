@@ -935,12 +935,12 @@
     "title": "Lessons",
     "description": "English for working in software development",
     "tags": "expertise, fields, work, tefl, English as a Foreign Language,",
-    "content": "\n> These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in English-speaking engineering environments\n\n[PageGrid pages=\"/work/tefl/lessons/github-commit\"]\n"
+    "content": "\n> These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in English-speaking engineering environments\n\n[PageGrid pages=\"/work/tefl/lessons/github-commit, /work/tefl/lessons/pull-requests\"]\n"
   },
   {
     "slug": "work/tefl/lessons/pull-requests",
     "title": "Pull Requests",
-    "description": "and Code Review",
+    "description": "Write polite, direct, and technically accurate pull request descriptions",
     "tags": "expertise, fields, work, tefl, English as a Foreign Language,",
     "content": "\nA follow-on lesson focusing on the language of collaboration. It shows how to write polite, direct, and technically accurate pull request descriptions. Learners practise giving feedback that is constructive, specific, and culturally appropriate for English-speaking engineering teams. The module includes example phrases for requesting changes, explaining decisions, and discussing trade-offs without sounding blunt or hesitant.\n"
   }

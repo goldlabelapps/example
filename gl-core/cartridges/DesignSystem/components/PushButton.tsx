@@ -1,12 +1,13 @@
 // /Users/goldlabel/GitHub/core/gl-core/cartridges/DesignSystem/components/PushButton.tsx
 'use client';
 import * as React from 'react';
-import { IconButton, Tooltip } from '@mui/material';
+import { IconButton, Tooltip, Avatar } from '@mui/material';
 import { useDispatch, Icon } from '../../../../gl-core';
-import { setPaywallKey, usePaywall } from '../../Paywall';
+import { setPaywallKey, useUser, usePaywall } from '../../Paywall';
 
 export default function PushButton() {
   const dispatch = useDispatch();
+  const user = useUser();
   const paywall = usePaywall();
   const { userDialog } = paywall || false;
 
@@ -14,8 +15,15 @@ export default function PushButton() {
     dispatch(setPaywallKey('userDialog', !userDialog));
   };
 
+  const photo =
+    user?.photoURL ||
+    user?.providerData?.[0]?.photoURL ||
+    null;
+
+  const tooltipTitle = user?.displayName || null;
+
   return (
-    <Tooltip title="Account">
+    <Tooltip title={tooltipTitle}>
       <IconButton
         onClick={toggleUserDialog}
         color="primary"
@@ -25,9 +33,19 @@ export default function PushButton() {
           position: 'fixed',
           bottom: 8,
           right: 8,
+          p: 0,
+          width: 40,
+          height: 40,
         }}
       >
-        <Icon icon="paywall" />
+        {photo ? (
+          <Avatar
+            src={photo}
+            sx={{ width: 40, height: 40 }}
+          />
+        ) : (
+          <Icon icon="paywall" />
+        )}
       </IconButton>
     </Tooltip>
   );
