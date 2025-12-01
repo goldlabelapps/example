@@ -8,7 +8,7 @@ import {
   WhatsappShareButton,
   TwitterShareButton,
 } from 'react-share';
-import { Box, Menu, MenuItem, ListItemIcon, ListItemText } from '@mui/material';
+import { Tooltip, Box, Menu, MenuItem, ListItemIcon, ListItemText } from '@mui/material';
 import { MightyButton } from '../../../gl-core';
 import { Icon } from '../../cartridges/DesignSystem';
 
@@ -41,7 +41,9 @@ export default function SharePopup({ frontmatter }: TSharePopup) {
   const fullWidth: React.CSSProperties = { display: 'block' };
 
   return (
-    <>
+    
+    <Tooltip title="Share" arrow>
+      <>
       <MightyButton
         mode="icon"
         label="Share"
@@ -123,6 +125,8 @@ export default function SharePopup({ frontmatter }: TSharePopup) {
           </WhatsappShareButton>
         </MenuItem>
       </Menu>
-    </>
+      </>
+      </Tooltip>
+    
   );
 }
