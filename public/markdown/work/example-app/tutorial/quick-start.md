@@ -5,6 +5,7 @@ title: Quick Start
 description: Get started with Goldlabel
 icon: examples
 image: /png/3rdParty/github_og.png
+noImage: true
 ---
 
 > Get started with Goldlabel Core Open Source

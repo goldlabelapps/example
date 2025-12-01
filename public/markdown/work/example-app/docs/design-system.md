@@ -5,6 +5,7 @@ title: Design System
 description: Based on Material UI
 icon: design
 image: /png/n64/test.png
+noImage: true
 ---
 
 > Material UI is a React component library that provides a consistent design system, layout primitives, and ready-made UI components

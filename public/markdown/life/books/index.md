@@ -5,7 +5,7 @@ description: What are you reading?
 slug: /life/books
 icon: books
 image: /png/n64/chix.png
-noImage: false
+noImage: true
 tags: science fiction, books, satire, douglas coupland, Cixin Liu,
 ---
 

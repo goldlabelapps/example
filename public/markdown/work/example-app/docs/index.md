@@ -6,6 +6,7 @@ description: Example Documentation
 icon: cartridge
 image: /png/lingua.png
 tags: docs
+noImage: true
 ---
 
 > Goldlabel is built on Cartridges

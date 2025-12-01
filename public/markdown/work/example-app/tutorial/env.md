@@ -5,6 +5,7 @@ title: .env
 description: Environment Variables
 icon: examples
 image: /png/3rdParty/github_og.png
+noImage: true
 ---
 
 > How environment files behave in a Next.js environment, including the practical traps that appear during development.

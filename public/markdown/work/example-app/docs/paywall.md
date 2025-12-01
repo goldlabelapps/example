@@ -6,7 +6,8 @@ description: Access Control Cartridge
 icon: paywall
 image: https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg
 newContent: true
-tags: paywall
+tags: paywall, docs
+noImage: true
 ---
 
 > Every visitor (authenticated or not) continuously creates or updates a ping document in Firestore

@@ -5,6 +5,7 @@ title: Lingua
 description: Serve Localised content in multiple languages
 icon: lingua
 image: /png/lingua.png
+noImage: true
 ---
 
 > The Lingua cartridge brings localisation to Goldlabel. It enables your site to serve content in multiple languages, making it accessible to a wider audience without complicating your codebase.

@@ -6,6 +6,7 @@ slug: /work
 icon: work
 image: https://live.staticflickr.com/65535/54950327749_6328b25765_b.jpg
 tags: Professional, JavaScript, Vanilla JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, Gatsby, NextJS, Headless CMS
+noImage: true
 ---
 
 > Goldlabel builds and ships modern web apps for clients who need real results fast

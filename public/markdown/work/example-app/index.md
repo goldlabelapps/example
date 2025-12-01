@@ -6,6 +6,7 @@ slug: /work/example-app
 icon: examples
 image: /png/n64/flickr.png
 tags: Open Source, JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, NextJS, App Router, GitHub
+noImage: true
 ---
 
 > The app you are using is free to fork, explore, copy, hack, and reuse

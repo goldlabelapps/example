@@ -6,6 +6,7 @@ description: Because all Apps need State Management
 icon: js
 image: /png/n64/test.png
 tags: Free, cartridges, Uberedux, State Management, Redux
+noImage: true
 ---
 
 > Otherwise you'd be back in jQuery callback hell. Nobody wants that.
