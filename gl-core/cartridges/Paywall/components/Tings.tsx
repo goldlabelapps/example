@@ -1,19 +1,26 @@
-// /Users/goldlabel/GitHub/core/gl-core/cartridges/Paywall/components/Tings.tsx
 'use client';
+
 import * as React from 'react';
 import { Box } from '@mui/material';
-import { useUser } from '../../Paywall';
+import { useDispatch } from '../../../../gl-core';
+import { useTing } from '../../Paywall';
+import { createTing } from '../actions/createTing';
 
 export default function Tings() {
-  const user = useUser();
+  const ting = useTing();
+  const dispatch = useDispatch();
+
+  React.useEffect(() => {
+    if (!ting) {
+      dispatch(createTing());
+    }
+  }, [ting, dispatch]);
 
   return (
     <Box>
       {/* <pre style={{ fontSize: '10px' }}>
-      user: {JSON.stringify(user, null, 2)}
-    </pre> */}
-
-      {user && <>Tings</>}
+        ting: {JSON.stringify(ting, null, 2)}
+      </pre> */}
     </Box>
   );
 }

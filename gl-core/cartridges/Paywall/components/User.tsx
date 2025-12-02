@@ -2,11 +2,7 @@
 'use client';
 import * as React from 'react';
 import { Badge, CardHeader, Avatar } from '@mui/material';
-import {
-  useUser,
-  setPaywallKey,
-  usePaywall,
-} from '../../Paywall';
+import { useUser, setPaywallKey, usePaywall } from '../../Paywall';
 import { Icon } from '../../DesignSystem';
 import { useDispatch } from '../../Uberedux';
 
@@ -44,7 +40,9 @@ export default function User() {
       avatar={
         <Badge
           badgeContent={
-            providerIcon ? <Icon icon={providerIcon as any} color="primary" /> : null
+            providerIcon ? (
+              <Icon icon={providerIcon as any} color="primary" />
+            ) : null
           }
         >
           <Avatar src={avatarSrc} />

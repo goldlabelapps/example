@@ -27,10 +27,7 @@ export default function PushButton() {
       ? providerIconMap[provider.providerId]
       : null;
 
-  const photo =
-    user?.photoURL ||
-    provider?.photoURL ||
-    null;
+  const photo = user?.photoURL || provider?.photoURL || null;
 
   const tooltipTitle = user?.displayName || null;
 
@@ -58,10 +55,7 @@ export default function PushButton() {
           }
         >
           {photo ? (
-            <Avatar
-              src={photo}
-              sx={{ width: 40, height: 40 }}
-            />
+            <Avatar src={photo} sx={{ width: 40, height: 40 }} />
           ) : (
             <Icon icon="paywall" />
           )}

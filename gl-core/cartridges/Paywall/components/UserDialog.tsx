@@ -48,7 +48,9 @@ export default function UserDialog() {
       >
         <DialogContent>
           <Grid container spacing={1} sx={{ mb: 0 }}>
-            <Grid size={{ xs: 12, md: 6 }}>{user ? <User /> : <SignIn />}</Grid>
+            <Grid size={{ xs: 12, md: 6 }}>
+              {user ? <User /> : <SignIn />} 
+            </Grid>
             <Grid size={{ xs: 12, md: 6 }}>
               <Box sx={{ mt: 3 }}>
                 <MenuSystem />

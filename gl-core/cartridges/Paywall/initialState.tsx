@@ -5,4 +5,5 @@ export const initialState: TPaywallState = {
   cartridge: 'paywall',
   userDialog: false,
   user: null,
+  ting: null,
 };

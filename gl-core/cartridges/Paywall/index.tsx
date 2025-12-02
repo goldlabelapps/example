@@ -11,7 +11,9 @@ import UserMenu from './components/UserMenu';
 import { usePaywall } from './hooks/usePaywall';
 import { useIsUberUser } from './hooks/useIsUberUser';
 import { useUser } from './hooks/useUser';
+import { useTing } from './hooks/useTing';
 import { setUser } from './actions/setUser';
+import { createTing } from './actions/createTing';
 import { setPaywallKey } from './actions/setPaywallKey';
 import { userSignout } from './actions/userSignout';
 
@@ -19,9 +21,11 @@ export {
   Paywall,
   initialStatePaywall,
   usePaywall,
+  useTing,
   useIsUberUser,
   useUser,
   setPaywallKey,
+  createTing,
   setUser,
   SignIn,
   SigninGate,
