@@ -35,7 +35,7 @@ export default function PushButton() {
     <Tooltip title={tooltipTitle}>
       <IconButton
         onClick={toggleUserDialog}
-        color="primary"
+        color="secondary"
         sx={{
           zIndex: (theme) => theme.zIndex.modal - 2,
           boxShadow: 0,

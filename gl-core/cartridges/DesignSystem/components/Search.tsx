@@ -35,12 +35,12 @@ const SearchField = styled('div')(({ theme }) => ({
   backgroundColor:
     theme.palette.mode === 'dark'
       ? alpha(theme.palette.common.white, 0.1)
-      : alpha(theme.palette.common.black, 0.05),
+      : alpha(theme.palette.common.white, 0.15),
   '&:hover': {
     backgroundColor:
       theme.palette.mode === 'dark'
         ? alpha(theme.palette.common.white, 0.15)
-        : alpha(theme.palette.common.black, 0.08),
+        : alpha(theme.palette.common.white, 0.18),
   },
   width: '100%',
 }));
@@ -147,7 +147,7 @@ export default function Search({ onTrigger = () => {} }: TSearch) {
       <SearchWrapper ref={wrapperRef}>
         <SearchField>
           <SearchIconWrapper>
-            <Icon icon="search" color="primary" />
+            <Icon icon="search" color="secondary" />
           </SearchIconWrapper>
           <StyledInputBase
             value={query}
