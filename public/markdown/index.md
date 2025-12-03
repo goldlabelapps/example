@@ -10,3 +10,5 @@ noImage: true
 ---
 
 [PageGrid thumbnails="yes" pages="/work, /life, /balance"]
+
+[GitHub url="https://github.com/users/javascript-pro/projects/8" label="Kanban Board"]

@@ -83,7 +83,7 @@
     "slug": "balance/index",
     "title": "Balance",
     "description": "Were you the kind of kid who liked Lego?",
-    "image": "https://live.staticflickr.com/65535/54941778209_29ee005a38_b.jpg",
+    "image": "https://live.staticflickr.com/65535/54933893533_4b3dbc97d6_b.jpg",
     "tags": [],
     "content": "\n> If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are [Generation X](/balance/books/douglas-coupland/generation-x)\n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]\n"
   },
@@ -213,7 +213,7 @@
     "description": "The apps we ship are real",
     "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
     "tags": "JavaScript, Next Gen, Next.js, example app, Gen X, goldlabel, AI Prompt Engineering, ChatGPT, OpenAI, Singularity, Frontend, Vanilla JS, TypeScript, React, Material UI, MUI, Flash, SSR, SSG, Node, Gatsby, NextJS, Headless CMS, secure",
-    "content": "\n[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]\n"
+    "content": "\n[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]\n\n[GitHub url=\"https://github.com/users/javascript-pro/projects/8\" label=\"Kanban Board\"]\n"
   },
   {
     "slug": "life/aquaponics/index",
@@ -645,7 +645,7 @@
     "description": "Open Source",
     "image": "/png/n64/flickr.png",
     "tags": "Open Source, JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, NextJS, App Router, GitHub",
-    "content": "\n> The app you are using is free to fork, explore, copy, hack, and reuse\n\nOpen Source and Free forever. It offers statically generated sites with Firestore-powered updates and a real admin panel. Built with Next.js App Router and Material UI\n\n[PageGrid pages=\"/work/example-app/docs, /work/example-app/tutorial\"]\n\n[GitHub url=\"https://github.com/javascript-pro/core/pulse\" label=\"Public Repository\"]\n\n[GitHub url=\"https://github.com/users/javascript-pro/projects/8\" label=\"Kanban Agile Board\"]\n"
+    "content": "\n> The app you are using is free to fork, explore, copy, hack, and reuse\n\nOpen Source and Free forever. It offers statically generated sites with Firestore-powered updates and a real admin panel. Built with Next.js App Router and Material UI\n\n[PageGrid pages=\"/work/example-app/docs, /work/example-app/tutorial\"]\n\n[GitHub url=\"https://github.com/javascript-pro/example-app/pulse\" label=\"Public Repository\"]\n\n[GitHub url=\"https://github.com/users/javascript-pro/projects/8\" label=\"Kanban Agile Board\"]\n"
   },
   {
     "slug": "work/example-app/tutorial/env",
@@ -731,9 +731,9 @@
     "slug": "work/index",
     "title": "Work",
     "description": "20+ Years of coding",
-    "image": "https://live.staticflickr.com/65535/54950327749_6328b25765_b.jpg",
+    "image": "/png/3rdParty/git_og.png",
     "tags": "Professional, JavaScript, Vanilla JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, Gatsby, NextJS, Headless CMS",
-    "content": "\n> Goldlabel builds and ships modern web apps for clients who need real results fast\n\n- _Small_ team. _Big_ output\n- Real deployments from Day One\n- Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" pages=\"/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example-app\"]\n"
+    "content": "\n> Goldlabel builds and ships modern web apps for clients who need real results fast\n\n- _Small_ team. _Big_ output\n- Real deployments from Day One\n- Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" pages=\"/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example-app\"]\n\n[GitHub url=\"https://github.com/users/javascript-pro/projects/8\" label=\"Kanban Board\"]\n"
   },
   {
     "slug": "work/skills/ai/aki/index",

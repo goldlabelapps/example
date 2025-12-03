@@ -21,12 +21,14 @@ export default function Footer({}: TFooter) {
     <>
       <AppBar
         position="fixed"
+        color="secondary"
         sx={{
           top: 'auto',
           bottom: 0,
+          background: 0,
         }}
       >
-        <Toolbar>
+        <Toolbar color="secondary">
           <Container>
             <Box
               sx={{
@@ -40,17 +42,12 @@ export default function Footer({}: TFooter) {
                     sm: 6,
                   }}
                 >
-                  <Box
-                    sx={{
-                      mt: isMobile ? 2 : 0,
-                      textAlign: isMobile ? 'center' : 'left',
-                    }}
-                  >
+                  <Box sx={{}}>
                     <Search />
                   </Box>
                 </Grid>
 
-                <Grid
+                {/* <Grid
                   size={{
                     xs: 12,
                     sm: 6,
@@ -66,7 +63,7 @@ export default function Footer({}: TFooter) {
                       Goldlabel Apps Ltd
                     </Typography>
                   </Box>
-                </Grid>
+                </Grid> */}
               </Grid>
             </Box>
           </Container>

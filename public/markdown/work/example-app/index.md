@@ -15,6 +15,6 @@ Open Source and Free forever. It offers statically generated sites with Firestor
 
 [PageGrid pages="/work/example-app/docs, /work/example-app/tutorial"]
 
-[GitHub url="https://github.com/javascript-pro/core/pulse" label="Public Repository"]
+[GitHub url="https://github.com/javascript-pro/example-app/pulse" label="Public Repository"]
 
 [GitHub url="https://github.com/users/javascript-pro/projects/8" label="Kanban Agile Board"]

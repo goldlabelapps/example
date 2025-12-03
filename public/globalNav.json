@@ -1072,7 +1072,7 @@
           }
         ],
         "icon": "work",
-        "image": "https://live.staticflickr.com/65535/54950327749_6328b25765_b.jpg",
+        "image": "/png/3rdParty/git_og.png",
         "tags": [
           "Professional",
           "JavaScript",
@@ -1884,7 +1884,7 @@
           }
         ],
         "icon": "balance",
-        "image": "https://live.staticflickr.com/65535/54941778209_29ee005a38_b.jpg",
+        "image": "https://live.staticflickr.com/65535/54933893533_4b3dbc97d6_b.jpg",
         "excerpt": "If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are \n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]"
       }
     ],
@@ -1916,6 +1916,6 @@
       "Headless CMS",
       "secure"
     ],
-    "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]"
+    "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]\n\n[GitHub url=\"https://github.com/users/javascriptpro/projects/8\" label=\"Kanban Board\"]"
   }
 ]
