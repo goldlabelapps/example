@@ -1,5 +1,4 @@
 import Nav from './Nav';
-import IndexNav from './IndexNav';
 import NavItem from './NavItem';
 import { PageBreadcrumb } from './PageBreadcrumb';
 import MightyButton from './MightyButton';
@@ -10,7 +9,6 @@ import OpenSource from './OpenSource';
 
 export {
   Children,
-  IndexNav,
   Nav,
   NavItem,
   PageBreadcrumb,

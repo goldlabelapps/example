@@ -1,13 +1,11 @@
 import Core from './Core';
 import { Icon } from './cartridges/DesignSystem';
 import {
-  Nav,
   NavItem,
   PageBreadcrumb,
   MightyButton,
   SharePopup,
   ShareMenu,
-  IndexNav,
   Children,
   OpenSource,
 } from './components';
@@ -72,8 +70,6 @@ export {
   GoogleMap,
   PrevNext,
   YouTube,
-  Nav,
-  IndexNav,
   NavItem,
   PageBreadcrumb,
   MightyButton,

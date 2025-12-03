@@ -7,7 +7,8 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
-import { Core, Nav } from '../../gl-core';
+import { Core } from '../../gl-core';
+import { Navigation } from '../../gl-core/cartridges/DesignSystem';
 
 export type TPage = {
   slug?: string[];
@@ -251,7 +252,7 @@ export default async function Page({
           </header>
 
           <aside id="gl-main-menu">
-            <Nav />
+            <Navigation />
           </aside>
 
           <main id="gl-main">

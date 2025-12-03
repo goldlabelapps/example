@@ -13,7 +13,6 @@ import Footer from './components/Footer';
 import Search from './components/Search';
 import Tags from './components/Tags';
 import MenuSystem from './components/MenuSystem';
-import SystemDialog from './components/SystemDialog';
 import Feedback from './components/Feedback';
 import LoadingOverlay from './components/LoadingOverlay';
 import NewContent from './components/NewContent';
@@ -38,7 +37,6 @@ export {
   FieldUpload,
   StandardCard,
   Icon,
-  SystemDialog,
   Feedback,
   setDesignSystemKey,
   setFeedback,

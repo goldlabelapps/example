@@ -8,7 +8,6 @@ import {
   useMUITheme,
   setFeedback,
   setDesignSystemKey,
-  SystemDialog,
   Feedback,
   PushButton,
   LoadingOverlay,
@@ -40,7 +39,6 @@ export default function DesignSystem({
       <CssBaseline />
       <LoadingOverlay />
       <Feedback />
-      <SystemDialog />
       {children}
       <PushButton />
       <Footer />

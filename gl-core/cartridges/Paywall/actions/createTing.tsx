@@ -11,7 +11,7 @@ const loadFingerprint = async () => {
   const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
   const fp = await FingerprintJS.load();
   const result = await fp.get();
-  return `${window.location.hostname}_${result.visitorId}`;
+  return `${result.visitorId}`;
 };
 
 // ─────────────────────────────────────────────────────────────
@@ -113,7 +113,7 @@ export const createTing =
       if (current?.pingReady) return;
 
       // 1. Generate fingerprint ID
-      const id = await loadFingerprint();
+      const fingerprint = await loadFingerprint();
 
       // 2. Geo data via ipgeolocation.io
       const apiKey = process.env.NEXT_PUBLIC_IPGEOLOCATION_API_KEY;
@@ -142,8 +142,10 @@ export const createTing =
       const device = await getDeviceInfo();
 
       // 4. Build ping object
-      const pingObj = {
-        id,
+      const tingObject = {
+        fingerprint,
+        created: Date.now(),
+        updated: Date.now(),
         hostname: window.location.hostname,
         pathname: window.location.pathname,
         ip: geoData.ip,
@@ -172,11 +174,10 @@ export const createTing =
         languages: Array.isArray(device.languages)
           ? device.languages.join(',')
           : '',
-        created: Date.now(),
       };
 
       // 5. Dispatch into bouncer slice
-      dispatch(setPaywallKey('ting', pingObj));
+      dispatch(setPaywallKey('ting', tingObject));
       dispatch(setPaywallKey('tingReady', true));
       //   dispatch(ping());
     } catch (e: unknown) {

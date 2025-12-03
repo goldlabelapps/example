@@ -11,6 +11,9 @@ import {
   Accordion,
   AccordionSummary,
   AccordionDetails,
+  Avatar,
+  Typography,
+  Divider,
 } from '@mui/material';
 import { useDispatch, useIsMobile, Icon } from '../../../../gl-core';
 import { useDesignSystem, MenuSystem } from '../../DesignSystem';
@@ -29,11 +32,15 @@ export default function UserDialog() {
   const isMobile = useIsMobile();
   const ds = useDesignSystem();
   const { fullScreen } = ds;
+
   const user = useUser();
   const ting = useTing();
   const paywall = usePaywall();
   const { userDialog } = paywall;
   const isUberUser = useIsUberUser();
+
+  const countryCode = ting?.country_code?.toLowerCase();
+  const flagSrc = countryCode ? `/svg/flags/${countryCode}.svg` : null;
 
   const handleClose = () => {
     dispatch(setPaywallKey('userDialog', false));
@@ -49,7 +56,7 @@ export default function UserDialog() {
         maxWidth={'sm'}
       >
         <DialogContent>
-          <Grid container spacing={1} sx={{ mb: 0 }}>
+          <Grid container spacing={2} sx={{ mb: 1 }}>
             {user && isUberUser && (
               <Grid size={{ xs: 12 }}>
                 <Accordion>
@@ -66,9 +73,68 @@ export default function UserDialog() {
                 </Accordion>
               </Grid>
             )}
-            <Grid size={{ xs: 12, md: 6 }}>{user ? <User /> : <SignIn />}</Grid>
+
+            {/* User or SignIn */}
             <Grid size={{ xs: 12, md: 6 }}>
-              <Box sx={{ mt: 3 }}>
+              {user ? <User /> : <SignIn />}
+
+              {/* ----------------------------------------- */}
+              {/* Interesting Ting Information */}
+              {/* ----------------------------------------- */}
+              {ting && (
+                <Box sx={{ mt: 2, mx: 1 }}>
+                  {/* Location */}
+                  <Typography variant="subtitle2" sx={{ opacity: 0.7 }}>
+                    Location
+                  </Typography>
+                  <Typography variant="body2">
+                    {ting.city || 'Unknown'}, {ting.state_prov || ''}{' '}
+                    {ting.country_name || ''}
+                  </Typography>
+
+                  <Divider sx={{ my: 1.5 }} />
+
+                  {/* Technical */}
+                  <Typography variant="subtitle2" sx={{ opacity: 0.7 }}>
+                    Device
+                  </Typography>
+                  <Typography variant="body2">
+                    {ting.browser} on {ting.os}
+                  </Typography>
+                  <Typography variant="body2">
+                    RAM: {ting.deviceMemory} GB • Cores:{' '}
+                    {ting.hardwareConcurrency}
+                  </Typography>
+                  <Typography variant="body2">
+                    Platform: {ting.platform}
+                  </Typography>
+
+                  <Divider sx={{ my: 1.5 }} />
+
+                  {/* Network */}
+                  <Typography variant="subtitle2" sx={{ opacity: 0.7 }}>
+                    Network
+                  </Typography>
+                  <Typography variant="body2">IP: {ting.ip}</Typography>
+                  <Typography variant="body2">{ting.isp}</Typography>
+                  <Typography variant="body2">{ting.organization}</Typography>
+                </Box>
+              )}
+            </Grid>
+
+            {/* MenuSystem */}
+            <Grid size={{ xs: 12, md: 6 }}>
+              {/* Flag */}
+              <Box sx={{ mx: 2, mt: 1 }}>
+                {flagSrc && (
+                  <Avatar
+                    src={flagSrc}
+                    alt={ting?.country_name}
+                    sx={{ width: 48, height: 48 }}
+                  />
+                )}
+              </Box>
+              <Box sx={{ mt: 2 }}>
                 <MenuSystem />
               </Box>
             </Grid>

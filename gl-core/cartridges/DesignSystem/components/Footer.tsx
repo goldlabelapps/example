@@ -15,6 +15,7 @@ export default function Footer() {
         top: 'auto',
         bottom: 0,
         background: 0,
+        boxShadow: 0,
       }}
     >
       <Toolbar color="secondary">

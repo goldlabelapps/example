@@ -56,10 +56,3 @@ export type TTheme = {
   text: string;
   border: string;
 };
-
-export type TSystemDialog = {
-  icon?: string;
-  title?: string;
-  subheader?: string;
-  content?: React.ReactNode;
-};
