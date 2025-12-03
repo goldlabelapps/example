@@ -41,7 +41,7 @@ export default function PushButton() {
           boxShadow: 0,
           position: 'fixed',
           bottom: 8,
-          right: 16,
+          right: 32,
           p: 0,
           width: 40,
           height: 40,
