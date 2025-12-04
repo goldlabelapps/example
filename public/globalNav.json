@@ -1283,6 +1283,24 @@
                 "excerpt": "Neuromancer's (1984) portrayal of AIs striving for autonomy foreshadowed realworld debates. Neuromancer didn’t predict the future—it just defined how to imagine it\n\n Why Neuromancer is Seminal in SciF"
               },
               {
+                "title": "Starship Troppers",
+                "slug": "/life/books/starship-troopers",
+                "order": 60,
+                "icon": "books",
+                "image": "https://live.staticflickr.com/65535/54961864707_9973ab17f7_b.jpg",
+                "type": "file",
+                "tags": [
+                  "Science Fiction",
+                  "Fiction",
+                  "Classics",
+                  "Dystopia",
+                  "fascistic",
+                  "fascism"
+                ],
+                "excerpt": "The movie is a loud, messy spoof that feels shallow next to the novel’s depth.\n\nStarship Troopers follows Juan “Johnny” Rico as he serves in the Mobile Infantry during an interstellar war with the Ara",
+                "newContent": true
+              },
+              {
                 "title": "Tom Robbins",
                 "slug": "/life/books/tom-robbins",
                 "order": 1233,
@@ -1301,7 +1319,7 @@
               "douglas coupland",
               "Cixin Liu"
             ],
-            "excerpt": "A curated collection of contemporary literature, showcasing some of the most distinctive voices in modern fiction\n\n[PageGrid thumbnails=\"yes\" pages=\"/life/books/cixinliu, /life/books/tomrobbins, /life"
+            "excerpt": "A curated collection of contemporary literature, showcasing some of the most distinctive voices in modern fiction\n\n[PageGrid thumbnails=\"yes\" pages=\"/life/books/starshiptroopers, /life/books/cixinliu,"
           },
           {
             "title": "Diving",
@@ -1580,7 +1598,7 @@
                 "icon": "bike",
                 "image": "https://live.staticflickr.com/65535/54961423439_a359c8626f_b.jpg",
                 "type": "file",
-                "excerpt": ""
+                "excerpt": "I have a love/hate relationship with this bike. After all it is the machine to which I actually lost toes. I rode it a bit close to a rock and squished my foot between the rock and the peg.\n\nThe bike "
               },
               {
                 "title": "Braap Cafe Racer",

@@ -11,18 +11,16 @@ newContent: true
 
 > The movie is a loud, messy spoof that feels shallow next to the novel’s depth.
 
-
 **Starship Troopers** follows Juan “Johnny” Rico as he serves in the Mobile Infantry during an interstellar war with the Arachnids. Beneath the power-armour battles, the book presents a political worldview where **full citizenship is earned only through federal service**, usually military. This frames a society that values obedience, hierarchy, and civic virtue defined by sacrifice for the state.
 
 The fascistic elements come from this structure:
 
-* **Citizenship through service** echoes militaristic societies where political power belongs only to those willing to fight.
-* **Glorification of the military**: officers teach moral philosophy; soldiers are depicted as the ideal citizens; discipline is central.
-* **Strong state authority**: corporal punishment and rigid control are presented as efficient and necessary.
-* **Collective duty over individuality**: personal freedoms are secondary to survival of the state.
+- **Citizenship through service** echoes militaristic societies where political power belongs only to those willing to fight.
+- **Glorification of the military**: officers teach moral philosophy; soldiers are depicted as the ideal citizens; discipline is central.
+- **Strong state authority**: corporal punishment and rigid control are presented as efficient and necessary.
+- **Collective duty over individuality**: personal freedoms are secondary to survival of the state.
 
 Heinlein leaves ambiguity. Some readers interpret it as critique-by-exaggeration; others see it as endorsement. The result is a novel widely debated for how it flirts with, mirrors, or warns about fascist tendencies while wrapped in pulpy military sci-fi.
-
 
 #### Why the fime did not work and isn't worth your time
 
