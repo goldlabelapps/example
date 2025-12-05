@@ -1,11 +1,10 @@
 ---
 order: 130
-slug: /work/example-app/docs/paywall
+slug: /work/example/docs/paywall
 title: Paywall
 description: Access Control Cartridge
 icon: paywall
 image: https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg
-newContent: true
 tags: paywall, docs
 noImage: true
 ---

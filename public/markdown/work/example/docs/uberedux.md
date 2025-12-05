@@ -1,6 +1,6 @@
 ---
 order: 50
-slug: /work/example-app/docs/uberedux
+slug: /work/example/docs/uberedux
 title: Uberedux
 description: Because all Apps need State Management
 icon: js

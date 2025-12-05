@@ -1,6 +1,6 @@
 ---
 order: 25
-slug: /work/example-app/docs/design-system
+slug: /work/example/docs/design-system
 title: Design System
 description: Based on Material UI
 icon: design
@@ -10,7 +10,7 @@ noImage: true
 
 > Material UI is a React component library that provides a consistent design system, layout primitives, and ready-made UI components
 
-[GitHub url="https://github.com/javascript-pro/core/tree/master/gl-core/cartridges/Theme" label="Theme Cartridge"]
+[GitHub url="https://github.com/goldlabelapps/example/tree/master/gl-core/cartridges/Theme" label="Theme Cartridge"]
 
 #### Foundation for all shared UI
 

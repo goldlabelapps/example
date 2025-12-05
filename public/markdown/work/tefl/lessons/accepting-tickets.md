@@ -8,7 +8,6 @@ icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
 tags: tefl, coding
 paywall: false
-newContent: true
 ---
 
 > Lesson: How to Accept and Work on a Ticket

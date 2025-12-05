@@ -1,6 +1,6 @@
 ---
 order: 28
-slug: /work/example-app/docs/lingua
+slug: /work/example/docs/lingua
 title: Lingua
 description: Serve Localised content in multiple languages
 icon: lingua

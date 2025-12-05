@@ -2,7 +2,7 @@
 order: 90
 title: Tutorial
 description: How to get up and running
-slug: /work/example-app/tutorial
+slug: /work/example/tutorial
 icon: doc
 image: /png/3rdParty/github_og.png
 tags: Tutorial, Open Source, JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, NextJS, GitHub
@@ -11,9 +11,7 @@ noImage: true
 
 > Each page focuses on a single part of the system
 
-[GitHub url="https://github.com/javascript-pro/example-app" label="git clone https://github.com/javascript-pro/example-app.git"]
-
-#### Clone the public repository
+[PageGrid pages="/work/example/tutorial/quick-start, /work/example/tutorial/env"]
 
 This section walks through a minimal Goldlabel Core project from start to finish. Each page focuses on a single part of the system so you can see how the framework works in practice: how content is structured, how cartridges plug in, and how the app turns Markdown into a complete site.
 

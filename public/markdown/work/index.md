@@ -15,6 +15,6 @@ noImage: true
 - Real deployments from Day One
 - Readable, extensible, Open Source
 
-[PageGrid thumbnails="no" pages="/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example-app"]
+[PageGrid thumbnails="no" pages="/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example"]
 
 [GitHub url="https://github.com/users/javascript-pro/projects/8" label="Kanban Board"]

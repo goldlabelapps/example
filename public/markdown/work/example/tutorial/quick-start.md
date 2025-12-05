@@ -1,6 +1,6 @@
 ---
 order: 5
-slug: /work/example-app/tutorial/quick-start
+slug: /work/example/tutorial/quick-start
 title: Quick Start
 description: Get started with Goldlabel
 icon: examples
@@ -10,23 +10,21 @@ noImage: true
 
 > Get started with Goldlabel Core Open Source
 
-[GitHub url="https://github.com/javascript-pro/core" label="Clone repo"]
-
-## 🚀 Install
+#### 🚀 Install
 
 1. Clone the repo
 
 ```bash
-git clone https://github.com/javascript-pro/core.git
-cd core
+git clone https://github.com/goldlabelapps/example.git
+cd example
 yarn install
 ```
 
-2. Setup Environment
+2. [Setup Environment](/work/example/tutorial/env)
 
 Create a `.env.local` file in the root directory with this variable. If you enable parts of the app which require other vars, it will let you know
 
-## 🔑 Develop
+#### 🔑 Start Dev Server
 
 ```bash
 yarn dev

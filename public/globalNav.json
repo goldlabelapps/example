@@ -159,8 +159,7 @@
                       "tefl",
                       "coding"
                     ],
-                    "excerpt": "Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/javascriptpro/projects/8\" ]\n\n 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signal",
-                    "newContent": true
+                    "excerpt": "Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/javascriptpro/projects/8\" ]\n\n 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signal"
                   }
                 ],
                 "icon": "lingua",
@@ -178,34 +177,35 @@
               "tefl",
               "coding"
             ],
-            "excerpt": "Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nLevel 5 TEFL Diploma, a UKregulated te"
+            "excerpt": "Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nLevel 5 TEFL Diploma, a UKregulated te",
+            "newContent": true
           },
           {
             "title": "Example",
-            "description": "Open Source",
-            "slug": "/work/example-app",
+            "description": "Open Source Next App",
+            "slug": "/work/example",
             "order": 60,
             "type": "folder",
             "children": [
               {
                 "title": "Docs",
                 "description": "Example Documentation",
-                "slug": "/work/example-app/docs",
+                "slug": "/work/example/docs",
                 "order": 10,
                 "type": "folder",
                 "children": [
                   {
                     "title": "Design System",
-                    "slug": "/work/example-app/docs/design-system",
+                    "slug": "/work/example/docs/design-system",
                     "order": 25,
                     "icon": "design",
                     "image": "/png/n64/test.png",
                     "type": "file",
-                    "excerpt": "Material UI is a React component library that provides a consistent design system, layout primitives, and readymade UI components\n\n[GitHub url=\"https://github.com/javascriptpro/core/tree/master/glcore"
+                    "excerpt": "Material UI is a React component library that provides a consistent design system, layout primitives, and readymade UI components\n\n[GitHub url=\"https://github.com/goldlabelapps/example/tree/master/glc"
                   },
                   {
                     "title": "Lingua",
-                    "slug": "/work/example-app/docs/lingua",
+                    "slug": "/work/example/docs/lingua",
                     "order": 28,
                     "icon": "lingua",
                     "image": "/png/lingua.png",
@@ -214,7 +214,7 @@
                   },
                   {
                     "title": "Uberedux",
-                    "slug": "/work/example-app/docs/uberedux",
+                    "slug": "/work/example/docs/uberedux",
                     "order": 50,
                     "icon": "js",
                     "image": "/png/n64/test.png",
@@ -230,7 +230,7 @@
                   },
                   {
                     "title": "Paywall",
-                    "slug": "/work/example-app/docs/paywall",
+                    "slug": "/work/example/docs/paywall",
                     "order": 130,
                     "icon": "paywall",
                     "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
@@ -239,8 +239,7 @@
                       "paywall",
                       "docs"
                     ],
-                    "excerpt": "Every visitor (authenticated or not) continuously creates or updates a ping document in Firestore\n\n[GitHub url=\"https://github.com/javascriptpro/core/tree/master/glcore/cartridges/Paywall\" label=\"Payw",
-                    "newContent": true
+                    "excerpt": "Every visitor (authenticated or not) continuously creates or updates a ping document in Firestore\n\n[GitHub url=\"https://github.com/javascriptpro/core/tree/master/glcore/cartridges/Paywall\" label=\"Payw"
                   }
                 ],
                 "icon": "cartridge",
@@ -253,22 +252,22 @@
               {
                 "title": "Tutorial",
                 "description": "How to get up and running",
-                "slug": "/work/example-app/tutorial",
+                "slug": "/work/example/tutorial",
                 "order": 90,
                 "type": "folder",
                 "children": [
                   {
                     "title": "Quick Start",
-                    "slug": "/work/example-app/tutorial/quick-start",
+                    "slug": "/work/example/tutorial/quick-start",
                     "order": 5,
                     "icon": "examples",
                     "image": "/png/3rdParty/github_og.png",
                     "type": "file",
-                    "excerpt": "Get started with Goldlabel Core Open Source\n\n[GitHub url=\"https://github.com/javascriptpro/core\" label=\"Clone repo\"]\n\n 🚀 Install\n\n1. Clone the repo\n\n\n\n2. Setup Environment\n\nCreate a  file in the root"
+                    "excerpt": "Get started with Goldlabel Core Open Source\n\n[GitHub url=\"https://github.com/goldlabelapps/example label=\"Clone repo\"]\n\n 🚀 Install\n\n1. Clone the repo\n\n\n\n2. Setup Environment\n\nCreate a  file in the ro"
                   },
                   {
                     "title": ".env",
-                    "slug": "/work/example-app/tutorial/env",
+                    "slug": "/work/example/tutorial/env",
                     "order": 6,
                     "icon": "examples",
                     "image": "/png/3rdParty/github_og.png",
@@ -291,7 +290,7 @@
                   "NextJS",
                   "GitHub"
                 ],
-                "excerpt": "Each page focuses on a single part of the system\n\n[GitHub url=\"https://github.com/javascriptpro/exampleapp\" label=\"git clone https://github.com/javascriptpro/exampleapp.git\"]\n\n Clone the public reposi"
+                "excerpt": "Each page focuses on a single part of the system\n\n[PageGrid pages=\"/work/example/tutorial/env, /work/example/tutorial/quickstart\"]\n\n[GitHub url=\"https://github.com/goldlabelapps/example\" label=\"git cl"
               }
             ],
             "icon": "examples",
@@ -1595,7 +1594,7 @@
             ],
             "icon": "food",
             "image": "/jpg/wei-zang/wei-zangs-food.jpg",
-            "excerpt": "You want a recipe? The interweb's full of them. This is how I cook\n\n[PageGrid pages=\"/life/food/bladdygiveitsome, /life/food/nasigoreng, /life/food/airfriedpeppers, /life/food/bananabread, /life/food/"
+            "excerpt": "You want a recipe? The interweb's full of them. This is how I cook\n\n[PageGrid pages=\"/life/food/tiramisu, /life/food/nasigoreng, /life/food/airfriedpeppers, /life/food/bananabread, /life/food/beefwell"
           },
           {
             "title": "Aquaponics",

@@ -1,6 +1,6 @@
 ---
 order: 6
-slug: /work/example-app/tutorial/env
+slug: /work/example/tutorial/env
 title: .env
 description: Environment Variables
 icon: examples
