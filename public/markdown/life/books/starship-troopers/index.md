@@ -6,7 +6,6 @@ slug: /life/books/starship-troopers
 icon: books
 image: https://live.staticflickr.com/65535/54961864707_9973ab17f7_b.jpg
 tags: Science Fiction, Fiction, Classics, Dystopia, fascistic, fascism
-newContent: true
 ---
 
 > The movie is a loud, messy spoof that feels shallow next to the novel’s depth.

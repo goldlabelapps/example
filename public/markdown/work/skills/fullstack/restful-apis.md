@@ -11,7 +11,7 @@ newContent: true
 
 > REST has been the backbone of web communication for two decades
 
-[LinkOut title="Goldlabel RESTful API" icon="ai" url="/api"]
+[LinkOut title="Example API" icon="api" url="/api"]
 
 Effective when it is structured clearly, documented properly, and resilient under real-world load. Despite alternatives such as GraphQL, REST remains the dominant standard. The challenge has never been the concept itself, but the implementation. A REST API only becomes effective when it is structured clearly, documented properly, and resilient under real-world load — qualities that many APIs fail to achieve.
 
@@ -27,7 +27,7 @@ Tags allow content to be grouped, discovered, and related across the application
 
 This creates a lightweight but powerful classification layer. It supports features such as “show me all pages tagged with api and nextjs”, related content recommendations, and SEO-friendly tag routes — all without maintaining a separate taxonomy service.
 
-#### Example) Flickr API 
+#### Example) Flickr API
 
 [LinkOut title="goldlabel.pro/api/flickr" url="https://goldlabel.pro/api/flickr"]
 

@@ -1131,7 +1131,7 @@
           }
         ],
         "icon": "work",
-        "image": "/png/3rdParty/git_og.png",
+        "image": "https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg",
         "tags": [
           "Professional",
           "JavaScript",
@@ -1146,7 +1146,7 @@
           "NextJS",
           "Headless CMS"
         ],
-        "excerpt": "Goldlabel builds and ships modern web apps for clients who need real results fast\n\n[GitHub url=\"https://github.com/users/javascriptpro/projects/8\" label=\"Kanban Board\"]\n\n Small team. Big output\n Real "
+        "excerpt": "Goldlabel builds and ships modern web apps for clients who need real results fast\n\n[PageGrid thumbnails=\"no\" pages=\"/work/about/hyperlinkresume, /work/about, /work/skills, /work/experience, /work/exam"
       },
       {
         "title": "Life",
@@ -1364,8 +1364,7 @@
                       "fascism",
                       "fascist"
                     ],
-                    "excerpt": "Punishment is a natural and necessary part of enforcing social order\n\nIn Starship Troopers, Lieutenant Colonel Jean V. Dubois uses the example of puppy training to argue that punishment is a natural a",
-                    "newContent": true
+                    "excerpt": "Punishment is a natural and necessary part of enforcing social order\n\nIn Starship Troopers, Lieutenant Colonel Jean V. Dubois uses the example of puppy training to argue that punishment is a natural a"
                   }
                 ],
                 "icon": "books",
@@ -1378,8 +1377,7 @@
                   "fascistic",
                   "fascism"
                 ],
-                "excerpt": "The movie is a loud, messy spoof that feels shallow next to the novel’s depth.\n\nStarship Troopers follows Juan “Johnny” Rico as he serves in the Mobile Infantry during an interstellar war with the Ara",
-                "newContent": true
+                "excerpt": "The movie is a loud, messy spoof that feels shallow next to the novel’s depth.\n\nStarship Troopers follows Juan “Johnny” Rico as he serves in the Mobile Infantry during an interstellar war with the Ara"
               },
               {
                 "title": "Tom Robbins",
