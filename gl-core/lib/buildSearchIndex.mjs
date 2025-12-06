@@ -45,4 +45,4 @@ fs.writeFileSync(
   JSON.stringify(index, null, 2),
 );
 
-console.log('✅ search-index.json built');
+console.log('✅ Generated search-index.json');

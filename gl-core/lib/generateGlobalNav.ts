@@ -163,7 +163,7 @@ export async function getMarkdownPagesRecursively(
 export async function generateGlobalNav() {
   const tree = await getMarkdownPagesRecursively(MARKDOWN_ROOT, []);
   await fs.writeFile(OUTPUT_PATH, JSON.stringify(tree, null, 2));
-  console.log(`✅ Generated /public/globalNav.json`);
+  console.log(`✅ Generated globalNav.json`);
 }
 
 // Run directly
