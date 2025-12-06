@@ -63,5 +63,5 @@ export async function generateSitemap() {
   const slugs = await getAllMarkdownSlugs(MARKDOWN_ROOT);
   const xml = generateSitemapXml(slugs);
   await fs.writeFile(OUTPUT_PATH, xml);
-  console.log(`✅ Generated Sitemap at /sitemap.xml`);
+  console.log(`✅ Generated sitemap.xml`);
 }

@@ -45,3 +45,4 @@ yarn-error.log*
 *.psd
 
 *.epub
+next-env.d.ts

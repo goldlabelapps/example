@@ -9,6 +9,7 @@ const withPWA = require('next-pwa')({
 const nextConfig = {
   devIndicators: false,
   transpilePackages: ['react-map-gl', 'mapbox-gl'],
+
   images: {
     remotePatterns: [
       {
@@ -18,6 +19,9 @@ const nextConfig = {
       },
     ],
   },
+
+  // explicitly choose webpack to avoid the Turbopack error
+  webpack: (config) => config,
 };
 
 module.exports = withPWA(nextConfig);
