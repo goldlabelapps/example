@@ -1,4 +1,3 @@
-
 ## Goldlabel Example
 
 ![Image](https://goldlabel.pro/png/3rdParty/next_og.png)

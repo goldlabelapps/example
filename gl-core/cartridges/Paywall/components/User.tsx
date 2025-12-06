@@ -34,12 +34,14 @@ export default function User() {
 
   return (
     <CardHeader
-      title={<Typography variant='body1'>
-        {user.displayName || provider?.displayName || ''}
-      </Typography>}
-      subheader={<Typography variant='body2'>
-        {user.email || provider?.email}
-      </Typography>}
+      title={
+        <Typography variant="body1">
+          {user.displayName || provider?.displayName || ''}
+        </Typography>
+      }
+      subheader={
+        <Typography variant="body2">{user.email || provider?.email}</Typography>
+      }
       onClick={toggleDialogOpen}
       avatar={
         <Badge

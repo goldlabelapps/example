@@ -88,13 +88,10 @@ export default function UserDialog() {
             </Grid>
           )}
 
-          
-
           {/* Location + Device Info */}
           <Grid size={{ xs: 12, md: 6 }}>
             {/* Location */}
             <Box sx={{ mt: 2 }}>
-
               <Box sx={{ display: 'flex', mt: 1 }}>
                 {flagSrc && (
                   <Avatar sx={{ mr: 2 }} src={flagSrc} alt={country} />
@@ -110,7 +107,6 @@ export default function UserDialog() {
             {/* Network */}
             {ting && (
               <Box sx={{ mt: 2 }}>
-
                 <Typography variant="subtitle2">IP: {ip}</Typography>
                 {isp && <Typography variant="body1">{isp}</Typography>}
                 {org && <Typography variant="body1">{org}</Typography>}

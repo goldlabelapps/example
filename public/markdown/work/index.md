@@ -20,4 +20,3 @@ noImage: true
 [PageGrid thumbnails="no" pages="/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example"]
 
 [LinkOut title="Kanban Board" icon="github" url="https://github.com/users/javascript-pro/projects/8"]
-
