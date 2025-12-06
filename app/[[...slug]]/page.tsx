@@ -7,7 +7,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
-import { Core } from '../../gl-core';
+import { Goldlabel } from '../../gl-core';
 import { Navigation } from '../../gl-core/cartridges/DesignSystem';
 
 export type TPage = {
@@ -232,7 +232,7 @@ export default async function Page({
   }
 
   return (
-    <Core frontmatter={{ ...frontmatter, isIndex }} body={content}>
+    <Goldlabel frontmatter={{ ...frontmatter, isIndex }} body={content}>
       <div id="core-ssg" className="gl">
         <div className="gl-wrap">
           <header id="gl-header">
@@ -278,6 +278,6 @@ export default async function Page({
           <footer id="gl-footer">{renderNav(globalNav[0])}</footer>
         </div>
       </div>
-    </Core>
+    </Goldlabel>
   );
 }

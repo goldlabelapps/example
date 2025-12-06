@@ -37,8 +37,29 @@ const titleMap = buildTitleMap(globalNav);
  */
 function smartCapitalize(label: string): string {
   const knownAcronyms = [
-    'AI','API','SEO','UI','UX','HTTP','HTTPS','TEFL','APIS','GDPR','NPM','CV','JSON',
-    'SQL','CSS','HTML','JS','TS','NLP','ML','GPU','SSR','SSG',
+    'AI',
+    'API',
+    'SEO',
+    'UI',
+    'UX',
+    'HTTP',
+    'HTTPS',
+    'TEFL',
+    'APIS',
+    'GDPR',
+    'NPM',
+    'CV',
+    'JSON',
+    'SQL',
+    'CSS',
+    'HTML',
+    'JS',
+    'TS',
+    'NLP',
+    'ML',
+    'GPU',
+    'SSR',
+    'SSG',
   ];
 
   if (!label) return label;
@@ -57,8 +78,14 @@ function smartCapitalize(label: string): string {
  * Hidden / tracking parameters we never show in breadcrumbs
  */
 const HIDDEN_PARAMS = [
-  'fbclid','gclid','msclkid','utm_source','utm_medium','utm_campaign',
-  'utm_term','utm_content',
+  'fbclid',
+  'gclid',
+  'msclkid',
+  'utm_source',
+  'utm_medium',
+  'utm_campaign',
+  'utm_term',
+  'utm_content',
 ];
 
 function Params() {

@@ -1,4 +1,4 @@
-import Core from './Core';
+import Goldlabel from './Goldlabel';
 import { Icon } from './cartridges/DesignSystem';
 import {
   NavItem,
@@ -53,7 +53,7 @@ import {
   log,
 } from './actions';
 
-export { Core };
+export { Goldlabel };
 export {
   switchTheme,
   navigateTo,

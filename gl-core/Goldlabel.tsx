@@ -44,7 +44,7 @@ import FeaturedImage from './cartridges/DesignSystem/components/FeaturedImage';
 
 const config = configRaw as TConfig;
 
-export default function Core({ frontmatter, body = null }: TCore) {
+export default function Goldlabel({ frontmatter, body = null }: TCore) {
   const dispatch = useDispatch();
   const newContent = useNewContent();
   const search = useSearch();
