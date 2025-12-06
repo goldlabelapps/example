@@ -6,7 +6,6 @@ slug: /life/food/tiramisu
 icon: food
 image: https://live.staticflickr.com/65535/54964823091_db0746055d_b.jpg
 tags: 'food, chocolate, orange, eggs, caster sugar, mascarpone, espresso, panettone, baileys'
-newContent: true
 ---
 
 #### Ingredients

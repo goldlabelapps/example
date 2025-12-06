@@ -167,10 +167,6 @@ export function PageBreadcrumb({
           </React.Fragment>
         );
       })}
-
-      <Suspense>
-        <Params />
-      </Suspense>
     </Box>
   );
 }

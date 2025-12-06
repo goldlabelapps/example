@@ -4,7 +4,7 @@ title: Work
 description: 20+ Years of coding
 slug: /work
 icon: work
-image: /png/3rdParty/git_og.png
+image: https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg
 tags: Professional, JavaScript, Vanilla JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, Gatsby, NextJS, Headless CMS
 noImage: true
 ---
@@ -15,6 +15,9 @@ noImage: true
 - Real deployments from Day One
 - Readable, extensible, Open Source
 
+[LinkOut title="Explore API" icon="api" url="/api"]
+
 [PageGrid thumbnails="no" pages="/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example"]
 
-[GitHub url="https://github.com/users/javascript-pro/projects/8" label="Kanban Board"]
+[LinkOut title="Kanban Board" icon="github" url="https://github.com/users/javascript-pro/projects/8"]
+

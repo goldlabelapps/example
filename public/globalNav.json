@@ -263,7 +263,7 @@
                     "icon": "examples",
                     "image": "/png/3rdParty/github_og.png",
                     "type": "file",
-                    "excerpt": "Get started with Goldlabel Core Open Source\n\n[GitHub url=\"https://github.com/goldlabelapps/example label=\"Clone repo\"]\n\n 🚀 Install\n\n1. Clone the repo\n\n\n\n2. Setup Environment\n\nCreate a  file in the ro"
+                    "excerpt": "Get started with Goldlabel Core Open Source\n\n 🚀 Install\n\n1. Clone the repo\n\n\n\n2. \n\nCreate a  file in the root directory with this variable. If you enable parts of the app which require other vars, it"
                   },
                   {
                     "title": ".env",
@@ -290,7 +290,7 @@
                   "NextJS",
                   "GitHub"
                 ],
-                "excerpt": "Each page focuses on a single part of the system\n\n[PageGrid pages=\"/work/example/tutorial/env, /work/example/tutorial/quickstart\"]\n\n[GitHub url=\"https://github.com/goldlabelapps/example\" label=\"git cl"
+                "excerpt": "Each page focuses on a single part of the system\n\n[PageGrid pages=\"/work/example/tutorial/quickstart, /work/example/tutorial/env\"]\n\nThis section walks through a minimal Goldlabel Core project from sta"
               }
             ],
             "icon": "examples",
@@ -952,6 +952,25 @@
                 "type": "folder",
                 "children": [
                   {
+                    "title": "RESTful APIs",
+                    "slug": "/work/skills/fullstack/restful-apis",
+                    "order": 7,
+                    "icon": "techstack",
+                    "image": "/png/3rdParty/next_og.png",
+                    "type": "file",
+                    "tags": [
+                      "free",
+                      "api",
+                      "restful",
+                      "endpoints",
+                      "next",
+                      "nextjs",
+                      "flickr"
+                    ],
+                    "excerpt": "REST has been the backbone of web communication for two decades\n\n[LinkOut title=\"Example API\" icon=\"api\" url=\"/api\"]\n\nEffective when it is structured clearly, documented properly, and resilient under ",
+                    "newContent": true
+                  },
+                  {
                     "title": "DevOps",
                     "slug": "/work/skills/fullstack/devops",
                     "order": 18,
@@ -1072,24 +1091,6 @@
                     "excerpt": "Things that actually matter daytoday as a React developer using GraphQL\n\n 1. You fetch exactly what you need\n\nNo overfetching, no underfetching.\nComponents request the precise fields they use, nothing"
                   },
                   {
-                    "title": "RESTful APIs",
-                    "slug": "/work/skills/fullstack/restful-apis",
-                    "order": 70,
-                    "icon": "techstack",
-                    "image": "/png/3rdParty/next_og.png",
-                    "type": "file",
-                    "tags": [
-                      "free",
-                      "api",
-                      "restful",
-                      "endpoints",
-                      "next",
-                      "nextjs",
-                      "flickr"
-                    ],
-                    "excerpt": "Effective when it is structured clearly, documented properly, and resilient under realworld load\n\nREST has been the backbone of web communication for two decades. Despite alternatives such as GraphQL,"
-                  },
-                  {
                     "title": "Docker & Kubernetes",
                     "slug": "/work/skills/fullstack/docker",
                     "order": 75,
@@ -1130,7 +1131,7 @@
           }
         ],
         "icon": "work",
-        "image": "/png/3rdParty/git_og.png",
+        "image": "https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg",
         "tags": [
           "Professional",
           "JavaScript",
@@ -1363,8 +1364,7 @@
                       "fascism",
                       "fascist"
                     ],
-                    "excerpt": "Punishment is a natural and necessary part of enforcing social order\n\nIn Starship Troopers, Lieutenant Colonel Jean V. Dubois uses the example of puppy training to argue that punishment is a natural a",
-                    "newContent": true
+                    "excerpt": "Punishment is a natural and necessary part of enforcing social order\n\nIn Starship Troopers, Lieutenant Colonel Jean V. Dubois uses the example of puppy training to argue that punishment is a natural a"
                   }
                 ],
                 "icon": "books",
@@ -1377,8 +1377,7 @@
                   "fascistic",
                   "fascism"
                 ],
-                "excerpt": "The movie is a loud, messy spoof that feels shallow next to the novel’s depth.\n\nStarship Troopers follows Juan “Johnny” Rico as he serves in the Mobile Infantry during an interstellar war with the Ara",
-                "newContent": true
+                "excerpt": "The movie is a loud, messy spoof that feels shallow next to the novel’s depth.\n\nStarship Troopers follows Juan “Johnny” Rico as he serves in the Mobile Infantry during an interstellar war with the Ara"
               },
               {
                 "title": "Tom Robbins",
@@ -1538,8 +1537,7 @@
                   "panettone",
                   "baileys"
                 ],
-                "excerpt": "Ingredients\n\n 2 large egg yolks\n 50g caster sugar\n 250g mascarpone\n 120ml strong espresso, cooled\n 5 tbsp Baileys & Terry’s Chocolate Orange Irish Cream Liqueur\n 1 mini panettone (approx. 80–100g)\n Co",
-                "newContent": true
+                "excerpt": "Ingredients\n\n 2 large egg yolks\n 50g caster sugar\n 250g mascarpone\n 120ml strong espresso, cooled\n 5 tbsp Baileys & Terry’s Chocolate Orange Irish Cream Liqueur\n 1 mini panettone (approx. 80–100g)\n Co"
               },
               {
                 "title": "Banana Bread",
@@ -1985,6 +1983,6 @@
       "Headless CMS",
       "secure"
     ],
-    "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]\n\n[GitHub url=\"https://github.com/users/javascriptpro/projects/8\" label=\"Kanban Board\"]"
+    "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]"
   }
 ]

@@ -1,11 +1,10 @@
-// core/gl-core/Core.tsx
+// /Users/goldlabel/GitHub/example/gl-core/Core.tsx
 'use client';
 
 import configRaw from './config.json';
 import { TCore, TConfig } from './types';
 import * as React from 'react';
 import { usePathname } from 'next/navigation';
-import Image from 'next/image';
 import {
   useMediaQuery,
   Box,
@@ -13,7 +12,6 @@ import {
   Container,
   Collapse,
   Grid,
-  Skeleton,
   Typography,
   Tooltip,
 } from '@mui/material';
@@ -42,6 +40,8 @@ import {
   useSearch,
 } from './cartridges/Uberedux';
 
+import FeaturedImage from './cartridges/DesignSystem/components/FeaturedImage';
+
 const config = configRaw as TConfig;
 
 export default function Core({ frontmatter, body = null }: TCore) {
@@ -49,9 +49,9 @@ export default function Core({ frontmatter, body = null }: TCore) {
   const newContent = useNewContent();
   const search = useSearch();
 
-  const { noImage, image, icon, title, description, paywall } =
+  const { noImage, image, icon, title, description, paywall, tags } =
     frontmatter ?? {};
-  const [imageError, setImageError] = React.useState(false);
+
   const [showWhatsNew, setShowWhatsNew] = React.useState(false);
 
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)');
@@ -60,6 +60,7 @@ export default function Core({ frontmatter, body = null }: TCore) {
   const { themeMode } = useDesignSystem();
   const isMobile = useIsMobile();
   const user = useUser();
+
   const fetchedNavRef = React.useRef(false);
 
   React.useEffect(() => {
@@ -86,189 +87,119 @@ export default function Core({ frontmatter, body = null }: TCore) {
   }, [newContent]);
 
   return (
-    <>
-      <DesignSystem theme={config.themes[effectiveThemeMode]}>
-        <Paywall />
-        <Container id="core" sx={{ mt: 2 }}>
-          <Box sx={{ minHeight: '100vh' }}>
-            {/* <pre>search: {JSON.stringify(search, null, 2)}</pre> */}
-
-            <Grid container spacing={isMobile ? 0 : 1}>
-              {/* LEFT COLUMN */}
+    <DesignSystem theme={config.themes[effectiveThemeMode]}>
+      <Paywall />
+      <Container id="goldlabel" sx={{ mt: 2 }}>
+        <Box sx={{ minHeight: '100vh' }}>
+          <Grid container spacing={isMobile ? 0 : 1}>
+            {!isMobile && (
               <Grid size={{ xs: 1, md: 3 }}>
-                <Box
-                  sx={{
-                    overflow: 'hidden',
-                    ml: isMobile ? -3 : 0,
-                    mt: 0,
-                  }}
-                >
+                <Box>
                   <Navigation />
                 </Box>
               </Grid>
+            )}
 
-              {/* RIGHT COLUMN */}
-              <Grid size={{ xs: 11, md: 9 }}>
-                {/* Title + Icon */}
-                <Box sx={{ display: 'flex' }}>
-                  <Box sx={{ mr: 2, mt: 1.5 }}>
-                    <Icon icon={icon as any} color="primary" />
-                  </Box>
-
-                  <Typography
-                    variant="h1"
-                    gutterBottom
-                    color="primary"
-                    sx={{
-                      mt: 0.5,
-                      fontSize: { xs: '1.6rem', md: '2rem' },
-                    }}
-                  >
-                    {title !== 'Home' ? title : 'Goldlabel Apps'}
-                  </Typography>
+            <Grid size={{ xs: 11, md: 9 }}>
+              <Box sx={{ display: 'flex' }}>
+                <Box sx={{ mr: 2, mt: 1.5 }}>
+                  <Icon icon={icon as any} color="primary" />
                 </Box>
-
-                <Box sx={{}}>
-                  <Typography
-                    variant="h2"
-                    gutterBottom
-                    sx={{ fontSize: { xs: '1.1rem', md: '1.25rem' } }}
-                  >
-                    {description}
-                  </Typography>
-                </Box>
-
-                {title !== 'Home' && pathname !== '/' && <PageBreadcrumb />}
-
-                {/* Description + Share + NEW TOGGLE */}
-                <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                  <Box sx={{ ml: -1 }}>
-                    <Tags />
+                <Typography
+                  variant="h1"
+                  color="primary"
+                  sx={{
+                    mt: 1,
+                    fontSize: { xs: '1.6rem', md: '2rem' },
+                  }}
+                >
+                  {title !== 'Home' ? title : 'Goldlabel Apps'}
+                </Typography>
+                <Box sx={{ flexGrow: 1 }} />
+                {isMobile && (
+                  <Box>
+                    <Navigation />
                   </Box>
+                )}
+              </Box>
 
-                  {newContent && newContent.length > 0 && (
-                    <Box>
+              <Typography
+                variant="h2"
+                sx={{
+                  fontSize: { xs: '1.1rem', md: '1.25rem' },
+                }}
+              >
+                {description}
+              </Typography>
+
+              {title !== 'Home' && pathname !== '/' && <PageBreadcrumb />}
+
+              {/* Tags + New Toggle + Share */}
+              <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                <Box sx={{ ml: -1 }}>
+                  <Tags tags={tags} />
+                </Box>
+                {newContent && (
+                  <>
+                    {newContent?.length > 0 && (
                       <Tooltip title="What's New" arrow>
                         <IconButton
                           color="secondary"
                           onClick={() => setShowWhatsNew((v) => !v)}
                         >
-                          <Icon icon={'news'} />
+                          <Icon icon="news" />
                         </IconButton>
                       </Tooltip>
-                    </Box>
-                  )}
-
-                  <Box sx={{ mr: 1 }}>
-                    <SharePopup />
-                  </Box>
+                    )}
+                  </>
+                )}
+                <Box sx={{ mr: 1 }}>
+                  <SharePopup />
                 </Box>
+              </Box>
 
-                {/* WHAT'S NEW — COLLAPSE */}
-                <Box sx={{}}>
-                  <Collapse in={showWhatsNew} unmountOnExit>
-                    <Grid container spacing={1}>
-                      {newContent?.map((item: any, i: number) => (
-                        <Grid key={`page_${i}`} size={{ xs: 12, md: mdSize }}>
-                          <NewContent slug={item.slug} />
-                        </Grid>
-                      ))}
+              <Collapse in={showWhatsNew} unmountOnExit>
+                <Grid container spacing={1} sx={{ mt: 1 }}>
+                  {newContent?.map((item: any, i: number) => (
+                    <Grid key={`page_${i}`} size={{ xs: 12, md: mdSize }}>
+                      <NewContent slug={item.slug} />
                     </Grid>
-                  </Collapse>
-                </Box>
+                  ))}
+                </Grid>
+              </Collapse>
 
-                {/* CONTENT AREA */}
-                <Box sx={{ mt: 2, mb: isMobile ? 3 : '175px' }}>
-                  {paywall === true && !isAuthed ? (
-                    <Grid
-                      container
-                      spacing={2}
-                      sx={{ alignItems: 'flex-start' }}
-                    >
-                      {/* Right: Image */}
-                      <Grid size={{ xs: 12, md: 6 }}>
-                        <Box sx={{ mt: 2 }}>
-                          {!noImage && image && (
-                            <Box>
-                              {!imageError ? (
-                                <Image
-                                  priority
-                                  src={image}
-                                  alt={title || 'Featured image'}
-                                  width={1200}
-                                  height={630}
-                                  style={{
-                                    width: '100%',
-                                    height: 'auto',
-                                    maxHeight: isMobile ? 'none' : '420px',
-                                    objectFit: 'cover',
-                                    borderRadius: 8,
-                                  }}
-                                  onError={() => setImageError(true)}
-                                />
-                              ) : (
-                                <Skeleton
-                                  variant="rectangular"
-                                  width="100%"
-                                  height={315}
-                                />
-                              )}
-                            </Box>
-                          )}
-                        </Box>
-                      </Grid>
-                      <Grid size={{ xs: 12, md: 6 }}>
-                        <SigninGate />
-                      </Grid>
+              <Box sx={{ mt: 2, mb: '80px' }}>
+                {paywall === true && !isAuthed ? (
+                  <Grid container spacing={2}>
+                    <Grid size={{ xs: 12, md: 6 }}>
+                      <Box sx={{ mt: 2 }}>
+                        <FeaturedImage
+                          image={!noImage ? image : null}
+                          title={title}
+                          maxHeight={420}
+                        />
+                      </Box>
                     </Grid>
-                  ) : (
-                    <>
-                      {!noImage && image && (
-                        <Box>
-                          {!imageError ? (
-                            <Image
-                              priority
-                              src={image}
-                              alt={title || 'Featured image'}
-                              width={1200}
-                              height={630}
-                              style={{
-                                borderRadius: 8,
-                                width: '100%',
-                                height: 'auto',
-                                maxHeight: isMobile ? 'none' : '315px',
-                                objectFit: 'cover',
-                              }}
-                              onError={() => setImageError(true)}
-                            />
-                          ) : (
-                            <Box>
-                              <Skeleton
-                                variant="rectangular"
-                                width="100%"
-                                height={315}
-                              />
-                              <Typography
-                                variant="body2"
-                                color="text.secondary"
-                                mt={1}
-                              >
-                                "{image}" not found.
-                              </Typography>
-                            </Box>
-                          )}
-                        </Box>
-                      )}
 
-                      <RenderMarkdown>{body}</RenderMarkdown>
-                    </>
-                  )}
-                </Box>
-              </Grid>
+                    <Grid size={{ xs: 12, md: 6 }}>
+                      <SigninGate />
+                    </Grid>
+                  </Grid>
+                ) : (
+                  <>
+                    <FeaturedImage
+                      image={!noImage ? image : null}
+                      title={title}
+                      maxHeight={315}
+                    />
+                    <RenderMarkdown>{body}</RenderMarkdown>
+                  </>
+                )}
+              </Box>
             </Grid>
-          </Box>
-        </Container>
-      </DesignSystem>
-    </>
+          </Grid>
+        </Box>
+      </Container>
+    </DesignSystem>
   );
 }

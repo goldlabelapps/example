@@ -3,12 +3,12 @@ import {
   // NextRequest,
   NextResponse,
 } from 'next/server';
-import { getBase } from '../gl-api/getBase';
+import { baseURL } from '../lib/baseURL';
 
 export async function GET() {
   // request: NextRequest
   return NextResponse.json({
     time: Date.now(),
-    start: `${getBase()}/api/gl-api/`,
+    start: `${baseURL()}/api/gl-api/`,
   });
 }

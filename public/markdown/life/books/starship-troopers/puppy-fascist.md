@@ -6,7 +6,6 @@ slug: /life/books/starship-troopers/puppy-fascist
 icon: books
 image: https://live.staticflickr.com/65535/54961864707_9973ab17f7_b.jpg
 tags: sci-fi, fiction, classics, dystopia, fascistic, fascism, fascist
-newContent: true
 ---
 
 > Punishment is a natural and necessary part of enforcing social order

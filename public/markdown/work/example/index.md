@@ -13,8 +13,10 @@ noImage: true
 
 Open Source and Free forever. It offers statically generated sites with Firestore-powered updates and a real admin panel. Built with Next.js App Router and Material UI
 
+[GitHub url="https://github.com/goldlabelapps/example/pulse" label="Example Repository"]
+
+[LinkOut title="Example API" icon="api" url="/api"]
+
+[GitHub url="https://github.com/users/javascript-pro/projects/8" label="Example Kanban Board"]
+
 [PageGrid pages="/work/example/docs, /work/example/tutorial, /work/example/docs/paywall, /work/example/docs/design-system, /work/example/docs/lingua, /work/example/docs/uberedux, /work/example/docs/content-manager"]
-
-[GitHub url="https://github.com/goldlabelapps/example/pulse" label="Repository Insights"]
-
-[GitHub url="https://github.com/users/javascript-pro/projects/8" label="Kanban Agile Board"]

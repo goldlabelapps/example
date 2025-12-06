@@ -1,14 +1,13 @@
 // core/app/api/route.ts
-import {
-  // NextRequest,
-  NextResponse,
-} from 'next/server';
-import { getBase } from './gl-api/getBase';
+import { NextResponse } from 'next/server';
+import { baseURL, header, footer } from './lib';
 
 export async function GET() {
-  // request: NextRequest
   return NextResponse.json({
+    name: 'Example API',
     time: Date.now(),
-    start: `${getBase()}/api/gl-api/`,
+    start: `${baseURL()}/api/`,
+    header: header(),
+    footer: footer(),
   });
 }

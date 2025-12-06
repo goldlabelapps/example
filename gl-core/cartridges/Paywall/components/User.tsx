@@ -1,7 +1,7 @@
 // /Users/goldlabel/GitHub/core/gl-core/cartridges/Paywall/components/User.tsx
 'use client';
 import * as React from 'react';
-import { Badge, CardHeader, Avatar } from '@mui/material';
+import { Badge, CardHeader, Avatar, Typography } from '@mui/material';
 import { useUser, setPaywallKey, usePaywall } from '../../Paywall';
 import { Icon } from '../../DesignSystem';
 import { useDispatch } from '../../Uberedux';
@@ -34,8 +34,12 @@ export default function User() {
 
   return (
     <CardHeader
-      title={user.displayName || provider?.displayName || ''}
-      subheader={user.email || provider?.email}
+      title={<Typography variant='body1'>
+        {user.displayName || provider?.displayName || ''}
+      </Typography>}
+      subheader={<Typography variant='body2'>
+        {user.email || provider?.email}
+      </Typography>}
       onClick={toggleDialogOpen}
       avatar={
         <Badge

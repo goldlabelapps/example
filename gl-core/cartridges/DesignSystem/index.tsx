@@ -4,6 +4,7 @@ import { initialState as initialStateDesignSystem } from './initialState';
 import DesignSystem from './DesignSystem';
 import StandardCard from './components/StandardCard';
 import PushButton from './components/PushButton';
+import FeaturedImage from './components/FeaturedImage';
 import FieldUpload from './components/FieldUpload';
 import Icon from './components/Icon';
 import AlertAd from './components/AlertAd';
@@ -48,4 +49,5 @@ export {
   Footer,
   RenderMarkdown,
   Search,
+  FeaturedImage,
 };

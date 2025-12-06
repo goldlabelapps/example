@@ -43,7 +43,7 @@ export function StandardCard({
 
   if (!content) return null;
 
-  const { title, excerpt, image, icon } = content;
+  const { title, description, image, icon } = content;
 
   return (
     <Card
@@ -118,8 +118,8 @@ export function StandardCard({
             />
           )}
 
-          <Typography variant="body2" sx={{ mb: 2 }}>
-            {stripShortcodes(excerpt)}
+          <Typography variant="body1" sx={{}}>
+            {description}
           </Typography>
         </CardContent>
 
