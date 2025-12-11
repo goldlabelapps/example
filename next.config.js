@@ -9,7 +9,6 @@ const withPWA = require('next-pwa')({
 const nextConfig = {
   devIndicators: false,
   transpilePackages: ['react-map-gl', 'mapbox-gl'],
-
   images: {
     remotePatterns: [
       {
