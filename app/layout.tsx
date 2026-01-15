@@ -19,8 +19,8 @@ export default async function RootLayout({
     console.error('Failed to load globalNav.json:', err);
   }
 
-  let shortcutIcon = '/svg/maskable.svg';
-  let appleTouchIcon = '/svg/maskable.svg';
+  let shortcutIcon = '/svg/favicon.svg';
+  let appleTouchIcon = '/svg/favicon.svg';
 
   return (
     <html lang="en">
