@@ -3,7 +3,8 @@ order: 10
 title: The Changing Dev Role
 description: Interviewing for senior/lead developer roles in the context of AI‑assisted software development?
 slug: /work/the-changing-dev-role
-icon: doc
+image: https://live.staticflickr.com/65535/55043207718_0af207d889_b.jpg
+icon: work
 tags: Senior Developer, AI, Experience
 ---
 

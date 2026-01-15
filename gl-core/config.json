@@ -6,8 +6,8 @@
       "mode": "light",
       "primary": "#C09F52",
       "secondary": "#C09F52",
-      "background": "#faffff",
-      "paper": "#F7F6F3",
+      "background": "#fff",
+      "paper": "#fff",
       "border": "#DECB9C",
       "text": "#3B3A3A"
     },

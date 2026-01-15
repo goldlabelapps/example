@@ -125,7 +125,8 @@
             "title": "The Changing Dev Role",
             "slug": "/work/the-changing-dev-role",
             "order": 10,
-            "icon": "doc",
+            "icon": "work",
+            "image": "https://live.staticflickr.com/65535/55043207718_0af207d889_b.jpg",
             "type": "file",
             "tags": [
               "Senior Developer",
