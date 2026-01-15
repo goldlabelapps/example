@@ -15,6 +15,4 @@ noImage: true
 - Real deployments from Day One
 - Readable, extensible, Open Source
 
-[PageGrid thumbnails="no" pages="/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example"]
-
-[LinkOut title="Kanban Board" icon="github" url="https://github.com/users/goldlabelapps/projects/3"]
+[PageGrid thumbnails="no" pages="/work/the-changing-dev-role, /work/about, /work/skills, /work/experience, /work/example"]

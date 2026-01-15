@@ -4560,6 +4560,114 @@
       }
     ]
   },
+  "tefl": {
+    "count": 4,
+    "pages": [
+      {
+        "title": "TEFL",
+        "slug": "/life/tefl",
+        "excerpt": "Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nLevel 5 TEFL Diploma, a UKregulated te",
+        "icon": "lingua",
+        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+        "description": "English for Software Developers",
+        "newContent": true,
+        "tags": [
+          "tefl",
+          "coding"
+        ]
+      },
+      {
+        "title": "Accreditation",
+        "slug": "/life/tefl/accreditation",
+        "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\nThe Level 5 TEFL Diploma is a UKregulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means",
+        "icon": "lingua",
+        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+        "description": "Level 5 TEFL Diploma",
+        "tags": [
+          "tefl",
+          "coding"
+        ]
+      },
+      {
+        "title": "Lessons",
+        "slug": "/life/tefl/lessons",
+        "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid ",
+        "icon": "lingua",
+        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+        "description": "English for working in software development",
+        "tags": [
+          "tefl",
+          "coding"
+        ]
+      },
+      {
+        "title": "How to Accept and Work on a Ticket",
+        "slug": "/life/tefl/lessons/accepting-tickets",
+        "excerpt": "Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/goldlabelapps/projects/3\" ]\n\n 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signal",
+        "icon": "lingua",
+        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+        "description": "Level, Aim, Target",
+        "tags": [
+          "tefl",
+          "coding"
+        ]
+      }
+    ]
+  },
+  "coding": {
+    "count": 4,
+    "pages": [
+      {
+        "title": "TEFL",
+        "slug": "/life/tefl",
+        "excerpt": "Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nLevel 5 TEFL Diploma, a UKregulated te",
+        "icon": "lingua",
+        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+        "description": "English for Software Developers",
+        "newContent": true,
+        "tags": [
+          "tefl",
+          "coding"
+        ]
+      },
+      {
+        "title": "Accreditation",
+        "slug": "/life/tefl/accreditation",
+        "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\nThe Level 5 TEFL Diploma is a UKregulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means",
+        "icon": "lingua",
+        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+        "description": "Level 5 TEFL Diploma",
+        "tags": [
+          "tefl",
+          "coding"
+        ]
+      },
+      {
+        "title": "Lessons",
+        "slug": "/life/tefl/lessons",
+        "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid ",
+        "icon": "lingua",
+        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+        "description": "English for working in software development",
+        "tags": [
+          "tefl",
+          "coding"
+        ]
+      },
+      {
+        "title": "How to Accept and Work on a Ticket",
+        "slug": "/life/tefl/lessons/accepting-tickets",
+        "excerpt": "Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/goldlabelapps/projects/3\" ]\n\n 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signal",
+        "icon": "lingua",
+        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+        "description": "Level, Aim, Target",
+        "tags": [
+          "tefl",
+          "coding"
+        ]
+      }
+    ]
+  },
   "Professional": {
     "count": 1,
     "pages": [
@@ -6953,7 +7061,7 @@
     ]
   },
   "AI": {
-    "count": 2,
+    "count": 3,
     "pages": [
       {
         "title": "A.I.",
@@ -6978,6 +7086,18 @@
           "ring‑fenced LLM",
           "AKI",
           "AI"
+        ]
+      },
+      {
+        "title": "The Changing Dev Role",
+        "slug": "/work/the-changing-dev-role",
+        "excerpt": "The core tension is this: Software development has undergone a step‑change due to AI, but many hiring conversations, job descriptions, and interview processes have not.\n\n What AI Has Actually Changed\n",
+        "icon": "doc",
+        "description": "Interviewing for senior/lead developer roles in the context of AI‑assisted software development?",
+        "tags": [
+          "Senior Developer",
+          "AI",
+          "Experience"
         ]
       }
     ]
@@ -8717,110 +8837,36 @@
       }
     ]
   },
-  "tefl": {
-    "count": 4,
+  "Senior Developer": {
+    "count": 1,
     "pages": [
       {
-        "title": "TEFL",
-        "slug": "/work/tefl",
-        "excerpt": "Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nLevel 5 TEFL Diploma, a UKregulated te",
-        "icon": "lingua",
-        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-        "description": "English for Software Developers",
-        "newContent": true,
+        "title": "The Changing Dev Role",
+        "slug": "/work/the-changing-dev-role",
+        "excerpt": "The core tension is this: Software development has undergone a step‑change due to AI, but many hiring conversations, job descriptions, and interview processes have not.\n\n What AI Has Actually Changed\n",
+        "icon": "doc",
+        "description": "Interviewing for senior/lead developer roles in the context of AI‑assisted software development?",
         "tags": [
-          "tefl",
-          "coding"
-        ]
-      },
-      {
-        "title": "Accreditation",
-        "slug": "/work/tefl/accreditation",
-        "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\nThe Level 5 TEFL Diploma is a UKregulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means",
-        "icon": "lingua",
-        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-        "description": "Level 5 TEFL Diploma",
-        "tags": [
-          "tefl",
-          "coding"
-        ]
-      },
-      {
-        "title": "Lessons",
-        "slug": "/work/tefl/lessons",
-        "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid ",
-        "icon": "lingua",
-        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-        "description": "English for working in software development",
-        "tags": [
-          "tefl",
-          "coding"
-        ]
-      },
-      {
-        "title": "How to Accept and Work on a Ticket",
-        "slug": "/work/tefl/lessons/accepting-tickets",
-        "excerpt": "Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/goldlabelapps/projects/3\" ]\n\n 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signal",
-        "icon": "lingua",
-        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-        "description": "Level, Aim, Target",
-        "tags": [
-          "tefl",
-          "coding"
+          "Senior Developer",
+          "AI",
+          "Experience"
         ]
       }
     ]
   },
-  "coding": {
-    "count": 4,
+  "Experience": {
+    "count": 1,
     "pages": [
       {
-        "title": "TEFL",
-        "slug": "/work/tefl",
-        "excerpt": "Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nLevel 5 TEFL Diploma, a UKregulated te",
-        "icon": "lingua",
-        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-        "description": "English for Software Developers",
-        "newContent": true,
+        "title": "The Changing Dev Role",
+        "slug": "/work/the-changing-dev-role",
+        "excerpt": "The core tension is this: Software development has undergone a step‑change due to AI, but many hiring conversations, job descriptions, and interview processes have not.\n\n What AI Has Actually Changed\n",
+        "icon": "doc",
+        "description": "Interviewing for senior/lead developer roles in the context of AI‑assisted software development?",
         "tags": [
-          "tefl",
-          "coding"
-        ]
-      },
-      {
-        "title": "Accreditation",
-        "slug": "/work/tefl/accreditation",
-        "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\nThe Level 5 TEFL Diploma is a UKregulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means",
-        "icon": "lingua",
-        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-        "description": "Level 5 TEFL Diploma",
-        "tags": [
-          "tefl",
-          "coding"
-        ]
-      },
-      {
-        "title": "Lessons",
-        "slug": "/work/tefl/lessons",
-        "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid ",
-        "icon": "lingua",
-        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-        "description": "English for working in software development",
-        "tags": [
-          "tefl",
-          "coding"
-        ]
-      },
-      {
-        "title": "How to Accept and Work on a Ticket",
-        "slug": "/work/tefl/lessons/accepting-tickets",
-        "excerpt": "Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/goldlabelapps/projects/3\" ]\n\n 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signal",
-        "icon": "lingua",
-        "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-        "description": "Level, Aim, Target",
-        "tags": [
-          "tefl",
-          "coding"
+          "Senior Developer",
+          "AI",
+          "Experience"
         ]
       }
     ]

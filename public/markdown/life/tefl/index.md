@@ -2,7 +2,7 @@
 order: 12
 title: TEFL
 description: English for Software Developers
-slug: /work/tefl
+slug: /life/tefl
 icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
 tags: tefl, coding
