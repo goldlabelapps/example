@@ -54,6 +54,7 @@ AI accelerates both groups — but only one group avoids scaling mistakes.
 ## Why Many Current Roles Feel Wrong
 
 Many roles still assume:
+
 - requirements are stable
 - tickets precede thinking
 - velocity comes from headcount
@@ -62,6 +63,7 @@ Many roles still assume:
 AI invalidates these assumptions.
 
 As a result, many roles being hired for today:
+
 - are optimised for a world that no longer exists
 - measure output instead of learning speed
 - separate product and engineering too rigidly
@@ -92,14 +94,14 @@ Outcome → Actors → Tasks → Data → APIs → UI
 ```
 
 UI is deliberately delayed until:
+
 - responsibilities are clear
 - data flows are understood
 - failure modes are considered
 
-
 ## Speed vs Robustness
 
-Speed is not the enemy of quality — *uncontrolled speed is*.
+Speed is not the enemy of quality — _uncontrolled speed is_.
 
 A practical approach:
 
