@@ -1,7 +1,7 @@
 [
   {
-    "title": "Home",
-    "description": "What can we expect from 2026?",
+    "title": "Goldlabel",
+    "description": "Modern web apps for clients who need real results fast",
     "slug": "/",
     "order": 1,
     "type": "folder",
@@ -122,62 +122,18 @@
             "excerpt": "[LinkOut title=\"Google Doc\" icon=\"google\" url=\"https://docs.google.com/document/d/1KgpbzwVlVF5PXVqJXEhFp52QolOWlVptecAo4JU7Zo/edit?usp=sharing\"]\n\n[LinkOut title=\"Download PDF\" icon=\"download\" url=\"/pd"
           },
           {
-            "title": "TEFL",
-            "description": "English for Software Developers",
-            "slug": "/work/tefl",
-            "order": 12,
-            "type": "folder",
-            "children": [
-              {
-                "title": "Accreditation",
-                "slug": "/work/tefl/accreditation",
-                "order": 20,
-                "icon": "lingua",
-                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-                "type": "file",
-                "tags": [
-                  "tefl",
-                  "coding"
-                ],
-                "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\nThe Level 5 TEFL Diploma is a UKregulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means"
-              },
-              {
-                "title": "Lessons",
-                "description": "English for working in software development",
-                "slug": "/work/tefl/lessons",
-                "order": 40,
-                "type": "folder",
-                "children": [
-                  {
-                    "title": "How to Accept and Work on a Ticket",
-                    "slug": "/work/tefl/lessons/accepting-tickets",
-                    "order": 10,
-                    "icon": "lingua",
-                    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-                    "type": "file",
-                    "tags": [
-                      "tefl",
-                      "coding"
-                    ],
-                    "excerpt": "Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/goldlabelapps/projects/3\" ]\n\n 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signal"
-                  }
-                ],
-                "icon": "lingua",
-                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-                "tags": [
-                  "tefl",
-                  "coding"
-                ],
-                "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid "
-              }
-            ],
-            "icon": "lingua",
-            "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+            "title": "The Changing Dev Role",
+            "slug": "/work/the-changing-dev-role",
+            "order": 10,
+            "icon": "work",
+            "image": "https://live.staticflickr.com/65535/55043207718_0af207d889_b.jpg",
+            "type": "file",
             "tags": [
-              "tefl",
-              "coding"
+              "Senior Developer",
+              "AI",
+              "Experience"
             ],
-            "excerpt": "Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nLevel 5 TEFL Diploma, a UKregulated te",
+            "excerpt": "The core tension is this: Software development has undergone a step‑change due to AI, but many hiring conversations, job descriptions, and interview processes have not.\n\n What AI Has Actually Changed\n",
             "newContent": true
           },
           {
@@ -967,8 +923,7 @@
                       "nextjs",
                       "flickr"
                     ],
-                    "excerpt": "REST has been the backbone of web communication for two decades\n\n[LinkOut title=\"Example API\" icon=\"api\" url=\"/api\"]\n\nEffective when it is structured clearly, documented properly, and resilient under ",
-                    "newContent": true
+                    "excerpt": "REST has been the backbone of web communication for two decades\n\n[LinkOut title=\"Example API\" icon=\"api\" url=\"/api\"]\n\nEffective when it is structured clearly, documented properly, and resilient under "
                   },
                   {
                     "title": "DevOps",
@@ -1131,7 +1086,7 @@
           }
         ],
         "icon": "work",
-        "image": "https://live.staticflickr.com/65535/55017672828_1753510293_b.jpg",
+        "image": "https://live.staticflickr.com/65535/55043207718_0af207d889_b.jpg",
         "tags": [
           "Professional",
           "JavaScript",
@@ -1146,7 +1101,7 @@
           "NextJS",
           "Headless CMS"
         ],
-        "excerpt": "Goldlabel builds and ships modern web apps for clients who need real results fast\n\n Small team. Big output\n Real deployments from Day One\n Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" "
+        "excerpt": "Small team. Big output\n Real deployments from Day One\n Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" pages=\"/work/thechangingdevrole, /work/about, /work/skills, /work/experience\"]"
       },
       {
         "title": "Life",
@@ -1399,6 +1354,64 @@
               "Cixin Liu"
             ],
             "excerpt": "A curated collection of contemporary literature, showcasing some of the most distinctive voices in modern fiction\n\n[PageGrid thumbnails=\"yes\" pages=\"/life/books/starshiptroopers, /life/books/cixinliu,"
+          },
+          {
+            "title": "TEFL",
+            "description": "English for Software Developers",
+            "slug": "/life/tefl",
+            "order": 12,
+            "type": "folder",
+            "children": [
+              {
+                "title": "Accreditation",
+                "slug": "/life/tefl/accreditation",
+                "order": 20,
+                "icon": "lingua",
+                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                "type": "file",
+                "tags": [
+                  "tefl",
+                  "coding"
+                ],
+                "excerpt": "Level 5 TEFL Diploma, a UKregulated teaching credential\n\nThe Level 5 TEFL Diploma is a UKregulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means"
+              },
+              {
+                "title": "Lessons",
+                "description": "English for working in software development",
+                "slug": "/life/tefl/lessons",
+                "order": 40,
+                "type": "folder",
+                "children": [
+                  {
+                    "title": "How to Accept and Work on a Ticket",
+                    "slug": "/life/tefl/lessons/accepting-tickets",
+                    "order": 10,
+                    "icon": "lingua",
+                    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                    "type": "file",
+                    "tags": [
+                      "tefl",
+                      "coding"
+                    ],
+                    "excerpt": "Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/goldlabelapps/projects/3\" ]\n\n 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signal"
+                  }
+                ],
+                "icon": "lingua",
+                "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+                "tags": [
+                  "tefl",
+                  "coding"
+                ],
+                "excerpt": "These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in Englishspeaking engineering environments\n\n[PageGrid "
+              }
+            ],
+            "icon": "lingua",
+            "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+            "tags": [
+              "tefl",
+              "coding"
+            ],
+            "excerpt": "Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nLevel 5 TEFL Diploma, a UKregulated te"
           },
           {
             "title": "Diving",
@@ -1701,7 +1714,7 @@
           }
         ],
         "icon": "life",
-        "image": "https://live.staticflickr.com/65535/55016604557_0c679df5b8_b.jpg",
+        "image": "https://live.staticflickr.com/65535/55042131557_edc53256a7_b.jpg",
         "excerpt": "⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a 1991 novel written by Canadian author Douglas Coupland\n\n[PageGrid thumbnails=\"no\" pages=\"/life/books, /life/food, /life/motor"
       },
       {
@@ -1959,17 +1972,17 @@
               }
             ],
             "icon": "writing",
-            "image": "https://live.staticflickr.com/65535/54935913815_ed25e30042_b.jpg",
+            "image": "https://live.staticflickr.com/65535/55042134422_16df78eb7d_b.jpg",
             "excerpt": "Snoopy’s line “It was a dark and stormy night…” is a deliberate parody of the famously bad opening sentence from Edward BulwerLytton’s 1830 novel Paul Clifford. That sentence became a cultural shortha"
           }
         ],
         "icon": "balance",
-        "image": "https://live.staticflickr.com/65535/55017757554_8d463c2b1a_b.jpg",
-        "excerpt": "If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are \n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]"
+        "image": "https://live.staticflickr.com/65535/55042136837_2c9d12d414_b.jpg",
+        "excerpt": "If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are \n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]\n\n Wha"
       }
     ],
     "icon": "home",
-    "image": "https://live.staticflickr.com/65535/55016269007_092c55e1ba_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55043218958_d4d954d513_b.jpg",
     "tags": [
       "2026",
       "JavaScript",
@@ -1999,6 +2012,6 @@
       "life",
       "balance"
     ],
-    "excerpt": "Instead of asking how AI will help us do a Jigsaw puzzle, we'll focus on explaining to AI why jigsaws exist. They give us something to do. Otherwise we'd just pick peanuts out of poo, eat the peanuts "
+    "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]"
   }
 ]

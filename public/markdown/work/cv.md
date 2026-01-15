@@ -2,7 +2,7 @@
 order: 10
 title: CV
 description: Hyperlink Resume
-slug: /work/about/cv
+slug: /work/cv
 icon: doc
 image: https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg
 tags: company, resume, cv, google, pdf

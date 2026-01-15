@@ -4,17 +4,12 @@ title: Work
 description: 20+ Years of coding
 slug: /work
 icon: work
-image: https://live.staticflickr.com/65535/55017672828_1753510293_b.jpg
+image: https://live.staticflickr.com/65535/55043207718_0af207d889_b.jpg
 tags: Professional, JavaScript, Vanilla JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, Gatsby, NextJS, Headless CMS
-noImage: true
 ---
-
-> Goldlabel builds and ships modern web apps for clients who need real results fast
 
 - _Small_ team. _Big_ output
 - Real deployments from Day One
 - Readable, extensible, Open Source
 
-[PageGrid thumbnails="no" pages="/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example"]
-
-[LinkOut title="Kanban Board" icon="github" url="https://github.com/users/goldlabelapps/projects/3"]
+[PageGrid thumbnails="no" pages="/work/the-changing-dev-role, /work/about, /work/skills, /work/experience"]

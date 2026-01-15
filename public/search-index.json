@@ -83,9 +83,9 @@
     "slug": "balance/index",
     "title": "Balance",
     "description": "Were you the kind of kid who liked Lego?",
-    "image": "https://live.staticflickr.com/65535/55017757554_8d463c2b1a_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55042136837_2c9d12d414_b.jpg",
     "tags": [],
-    "content": "\n> If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are [Generation X](/balance/books/douglas-coupland/generation-x)\n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]\n"
+    "content": "\n> If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are [Generation X](/balance/books/douglas-coupland/generation-x)\n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]\n\n## What can we expect from 2026?\n\nInstead of asking how AI will help us do a Jigsaw puzzle, we'll focus on explaining to AI why jigsaws exist. They give us something to do. Otherwise we'd just pick peanuts out of poo, eat the peanuts and fling the poo at each other\n"
   },
   {
     "slug": "balance/pictures/index",
@@ -179,7 +179,7 @@
     "slug": "balance/words/index",
     "title": "Words",
     "description": "It was a dark and stormy night…",
-    "image": "https://live.staticflickr.com/65535/54935913815_ed25e30042_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55042134422_16df78eb7d_b.jpg",
     "tags": [],
     "content": "\n> Snoopy’s line “It was a dark and stormy night…” is a deliberate parody of the famously bad opening sentence from Edward Bulwer-Lytton’s 1830 novel Paul Clifford. That sentence became a cultural shorthand for overwrought, clichishy writing.\n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words/not-here-to-fuck-spiders, /balance/words/der-kleine-zeppelin\"]\n"
   },
@@ -209,11 +209,11 @@
   },
   {
     "slug": "index",
-    "title": "Home",
-    "description": "What can we expect from 2026?",
-    "image": "https://live.staticflickr.com/65535/55016269007_092c55e1ba_b.jpg",
+    "title": "Goldlabel",
+    "description": "Modern web apps for clients who need real results fast",
+    "image": "https://live.staticflickr.com/65535/55043218958_d4d954d513_b.jpg",
     "tags": "2026, JavaScript, Next Gen, Next.js, example app, Gen X, goldlabel, AI Prompt Engineering, ChatGPT, OpenAI, Singularity, Frontend, Vanilla JS, TypeScript, React, Material UI, MUI, Flash, SSR, SSG, Node, NextJS, Headless CMS, secure, work, life, balance",
-    "content": "\nInstead of asking how AI will help us do a Jigsaw puzzle, we'll focus on explaining to AI why jigsaws exist. They give us something to do. Otherwise we'd just pick peanuts out of poo, eat the peanuts and fling the poo at each other\n\n[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]\n"
+    "content": "\n[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]\n"
   },
   {
     "slug": "life/aquaponics/index",
@@ -515,7 +515,7 @@
     "slug": "life/index",
     "title": "Life",
     "description": "Generation X at 50",
-    "image": "https://live.staticflickr.com/65535/55016604557_0c679df5b8_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55042131557_edc53256a7_b.jpg",
     "tags": [],
     "content": "\n> ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a 1991 novel written by Canadian author Douglas Coupland\n\n[PageGrid thumbnails=\"no\" pages=\"/life/books, /life/food, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\nI work remotely. I cook, eat, ride motorbikes and scuba dive. Skiing used to be my favourite, but I'm a bit old now. I lost toes and broke a hip, so at my age maybe it's time to take up sailing. We are [Generation X](/life/books/douglas-coupland/generation-x)\n"
   },
@@ -566,6 +566,38 @@
     "image": "/png/n64/punk.png",
     "tags": [],
     "content": "\n[YouTube src=\"https://www.youtube.com/watch?v=wrgbTrGahKU\"]\n"
+  },
+  {
+    "slug": "life/tefl/accreditation",
+    "title": "Accreditation",
+    "description": "Level 5 TEFL Diploma",
+    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+    "tags": "tefl, coding",
+    "content": "\n> Level 5 TEFL Diploma, a UK-regulated teaching credential\n\nThe Level 5 TEFL Diploma is a UK-regulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means the syllabus, assessments, and learning outcomes meet national education standards rather than being “just another online certificate”.\n\n#### What it covers\n\n- Core grammar and language systems\n- Lesson planning, scaffolding, and classroom management\n- Teaching reading, writing, listening, and speaking\n- Pronunciation and phonology\n- Error correction and feedback techniques\n- Needs analysis and designing targeted lessons\n- Teaching English for Specific Purposes (ESP), including business and technical English\n- Using digital tools and AI effectively in language teaching\n- A full practicum/teaching portfolio to demonstrate competence\n\n> Internationally recognised: Accepted by reputable schools, online platforms, and employers worldwide.\n\nProfessional depth: Goes far beyond basic 120-hour TEFL certificates; it prepares you to design and deliver high-quality lessons.\n\nCredibility: Ofqual regulation gives it weight and signals that you’ve completed a structured, assessed programme.\n\nBetter job access and pay: Level 5 credentials are often preferred for more specialised or higher-paid online teaching roles.\n\nStrong foundation for niches: Particularly useful for teaching English to developers, where clear technical communication matters.\n"
+  },
+  {
+    "slug": "life/tefl/index",
+    "title": "TEFL",
+    "description": "English for Software Developers",
+    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+    "tags": "tefl, coding",
+    "content": "\n> Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nLevel 5 TEFL Diploma, a UK-regulated teaching credential equivalent to a foundation-level qualification. It’s internationally recognised and designed for professional English teaching, with modules covering grammar, lesson planning, communication skills, and the use of AI in language learning.\n"
+  },
+  {
+    "slug": "life/tefl/lessons/accepting-tickets",
+    "title": "How to Accept and Work on a Ticket",
+    "description": "Level, Aim, Target",
+    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+    "tags": "tefl, coding",
+    "content": "\n> Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/goldlabelapps/projects/3\" ]\n\n### 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signals ownership. It tells the team the work has a clear driver and gives stakeholders confidence that progress is underway.\n\n### 2. What a Good Acceptance Comment Does\n\n- Confirms you’re taking responsibility\n- Shows understanding of the problem\n- Sets expectations for approach and scope\n- Reassures the team you’ll deliver safely\n\n### 3. Example Acceptance Comment\n\n> “Happy to take this one. The current search is stable but basic, so the goal is to improve matching, relevance, and UI behaviour to make the whole flow feel more intuitive. Work will be delivered in small, safe increments to keep everything stable.”\n\n### 4. Why This Works\n\n- Positive tone shows engagement\n- Clear understanding of the current state\n- Realistic goals set the direction\n- Incremental delivery reduces risk\n\n### 5. Steps After Accepting the Ticket\n\n1. Re-read the description to confirm requirements\n2. Identify unknowns — ask clarifying questions early\n3. Break the work down into small, deliverable parts\n4. Plan your first commit (setup, refactor, or tests)\n5. Communicate progress through updates and small PRs\n6. Close the ticket once tested and merged\n\n### 6. Common Mistakes\n\n- Accepting work without understanding it\n- Silent ownership (no comment, no updates)\n- Taking on too much in one go\n- Delivering a big, risky PR\n\n### 7. Mini-Exercise for Learners\n\nWrite your own acceptance comment for this scenario:\n\nA button in the UI sometimes fails to respond on mobile devices.\n"
+  },
+  {
+    "slug": "life/tefl/lessons/index",
+    "title": "Lessons",
+    "description": "English for working in software development",
+    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
+    "tags": "tefl, coding",
+    "content": "\n> These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in English-speaking engineering environments\n\n[PageGrid pages=\"/work/tefl/lessons/accepting-tickets\"]\n\n#### Technical Stand-Ups and Status Updates\n\nA session on speaking skills for daily stand-ups and asynchronous status posts. It teaches a simple structure for explaining blockers, progress, and next steps. Learners work on clarity, brevity, and confidence — avoiding over-long explanations while still giving enough detail for a team to act on.\n\n#### Bug Reports and Issue Tracking\n\nA writing module centred on JIRA/GitHub Issues. It covers how to describe reproduction steps, expected behaviour, environment details, and impact. The lesson helps learners avoid vague phrasing and adopt the concise, action-oriented style expected in engineering teams.\n\n#### Working in English-Speaking Teams\n\nA communication module that introduces the unwritten norms of English-language engineering culture: hedging, softening, tone control, and diplomatic disagreement. It includes practical scripts for planning, clarifying requirements, asking for help, and negotiating deadlines.\n"
   },
   {
     "slug": "work/about/gdpr",
@@ -755,9 +787,9 @@
     "slug": "work/index",
     "title": "Work",
     "description": "20+ Years of coding",
-    "image": "https://live.staticflickr.com/65535/55017672828_1753510293_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55043207718_0af207d889_b.jpg",
     "tags": "Professional, JavaScript, Vanilla JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, Gatsby, NextJS, Headless CMS",
-    "content": "\n> Goldlabel builds and ships modern web apps for clients who need real results fast\n\n- _Small_ team. _Big_ output\n- Real deployments from Day One\n- Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" pages=\"/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example\"]\n\n[LinkOut title=\"Kanban Board\" icon=\"github\" url=\"https://github.com/users/goldlabelapps/projects/3\"]\n"
+    "content": "\n- _Small_ team. _Big_ output\n- Real deployments from Day One\n- Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" pages=\"/work/the-changing-dev-role, /work/about, /work/skills, /work/experience\"]\n"
   },
   {
     "slug": "work/skills/ai/aki/index",
@@ -1104,35 +1136,11 @@
     "content": "\n> Other services to deploy Next apps are available\n\nVercel created Next.js and runs the platform it was designed for. Deploys are instant, previews are automatic, and the hosting is globally fast without any configuration. You push to Git, and Vercel handles builds, routing, caching, edge functions, and rollbacks with almost no friction.\n\nFor deploying Next.js projects, nothing else comes close.\n"
   },
   {
-    "slug": "work/tefl/accreditation",
-    "title": "Accreditation",
-    "description": "Level 5 TEFL Diploma",
-    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-    "tags": "tefl, coding",
-    "content": "\n> Level 5 TEFL Diploma, a UK-regulated teaching credential\n\nThe Level 5 TEFL Diploma is a UK-regulated teaching qualification at the same level as a foundation degree. It’s overseen by Ofqual, which means the syllabus, assessments, and learning outcomes meet national education standards rather than being “just another online certificate”.\n\n#### What it covers\n\n- Core grammar and language systems\n- Lesson planning, scaffolding, and classroom management\n- Teaching reading, writing, listening, and speaking\n- Pronunciation and phonology\n- Error correction and feedback techniques\n- Needs analysis and designing targeted lessons\n- Teaching English for Specific Purposes (ESP), including business and technical English\n- Using digital tools and AI effectively in language teaching\n- A full practicum/teaching portfolio to demonstrate competence\n\n> Internationally recognised: Accepted by reputable schools, online platforms, and employers worldwide.\n\nProfessional depth: Goes far beyond basic 120-hour TEFL certificates; it prepares you to design and deliver high-quality lessons.\n\nCredibility: Ofqual regulation gives it weight and signals that you’ve completed a structured, assessed programme.\n\nBetter job access and pay: Level 5 credentials are often preferred for more specialised or higher-paid online teaching roles.\n\nStrong foundation for niches: Particularly useful for teaching English to developers, where clear technical communication matters.\n"
-  },
-  {
-    "slug": "work/tefl/index",
-    "title": "TEFL",
-    "description": "English for Software Developers",
-    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-    "tags": "tefl, coding",
-    "content": "\n> Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nLevel 5 TEFL Diploma, a UK-regulated teaching credential equivalent to a foundation-level qualification. It’s internationally recognised and designed for professional English teaching, with modules covering grammar, lesson planning, communication skills, and the use of AI in language learning.\n"
-  },
-  {
-    "slug": "work/tefl/lessons/accepting-tickets",
-    "title": "How to Accept and Work on a Ticket",
-    "description": "Level, Aim, Target",
-    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-    "tags": "tefl, coding",
-    "content": "\n> Lesson: How to Accept and Work on a Ticket\n\n[GitHub label=\"Example Kanban Board\" url=\"https://github.com/users/goldlabelapps/projects/3\" ]\n\n### 1. Purpose of Accepting a Ticket\n\nAccepting a ticket signals ownership. It tells the team the work has a clear driver and gives stakeholders confidence that progress is underway.\n\n### 2. What a Good Acceptance Comment Does\n\n- Confirms you’re taking responsibility\n- Shows understanding of the problem\n- Sets expectations for approach and scope\n- Reassures the team you’ll deliver safely\n\n### 3. Example Acceptance Comment\n\n> “Happy to take this one. The current search is stable but basic, so the goal is to improve matching, relevance, and UI behaviour to make the whole flow feel more intuitive. Work will be delivered in small, safe increments to keep everything stable.”\n\n### 4. Why This Works\n\n- Positive tone shows engagement\n- Clear understanding of the current state\n- Realistic goals set the direction\n- Incremental delivery reduces risk\n\n### 5. Steps After Accepting the Ticket\n\n1. Re-read the description to confirm requirements\n2. Identify unknowns — ask clarifying questions early\n3. Break the work down into small, deliverable parts\n4. Plan your first commit (setup, refactor, or tests)\n5. Communicate progress through updates and small PRs\n6. Close the ticket once tested and merged\n\n### 6. Common Mistakes\n\n- Accepting work without understanding it\n- Silent ownership (no comment, no updates)\n- Taking on too much in one go\n- Delivering a big, risky PR\n\n### 7. Mini-Exercise for Learners\n\nWrite your own acceptance comment for this scenario:\n\nA button in the UI sometimes fails to respond on mobile devices.\n"
-  },
-  {
-    "slug": "work/tefl/lessons/index",
-    "title": "Lessons",
-    "description": "English for working in software development",
-    "image": "https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg",
-    "tags": "tefl, coding",
-    "content": "\n> These lessons focus on English for software development — helping developers improve technical communication, teamwork, and clarity when working in English-speaking engineering environments\n\n[PageGrid pages=\"/work/tefl/lessons/accepting-tickets\"]\n\n#### Technical Stand-Ups and Status Updates\n\nA session on speaking skills for daily stand-ups and asynchronous status posts. It teaches a simple structure for explaining blockers, progress, and next steps. Learners work on clarity, brevity, and confidence — avoiding over-long explanations while still giving enough detail for a team to act on.\n\n#### Bug Reports and Issue Tracking\n\nA writing module centred on JIRA/GitHub Issues. It covers how to describe reproduction steps, expected behaviour, environment details, and impact. The lesson helps learners avoid vague phrasing and adopt the concise, action-oriented style expected in engineering teams.\n\n#### Working in English-Speaking Teams\n\nA communication module that introduces the unwritten norms of English-language engineering culture: hedging, softening, tone control, and diplomatic disagreement. It includes practical scripts for planning, clarifying requirements, asking for help, and negotiating deadlines.\n"
+    "slug": "work/the-changing-dev-role",
+    "title": "The Changing Dev Role",
+    "description": "Interviewing for senior/lead developer roles in the context of AI‑assisted software development?",
+    "image": "https://live.staticflickr.com/65535/55043207718_0af207d889_b.jpg",
+    "tags": "Senior Developer, AI, Experience",
+    "content": "\n> The core tension is this: Software development has undergone a step‑change due to AI, but many hiring conversations, job descriptions, and interview processes have not.\n\n### What AI Has Actually Changed\n\nAI has not primarily:\n\n- replaced developers\n- removed the need for engineering discipline\n- eliminated senior roles\n\nInstead, it has:\n\n- collapsed the cost of _implementation_\n- accelerated prototyping and exploration\n- moved the bottleneck from **writing code** to **deciding what code should exist**\n\nThe scarce skill is now **judgement**, not syntax.\n\n## Experience Matters More Than Ever\n\n- Experience provides context on failure modes\n- It informs which shortcuts are safe\n- It reveals where complexity hides (data, auth, scale, ownership)\n- It enables better questions to be asked of AI tools\n\n### The AI Question Gap\n\nLess‑experienced developers can ask:\n\n```sh\nHow do I build X?\n```\n\nExperienced developers ask:\n\n```sh\nShould X exist?\nWhat breaks if it does?\nWhere does this lock us in?\nWhat has to be correct from day one?\n```\n\nAI accelerates both groups — but only one group avoids scaling mistakes.\n\n## Why Many Current Roles Feel Wrong\n\nMany roles still assume:\n\n- requirements are stable\n- tickets precede thinking\n- velocity comes from headcount\n- scale problems come later\n\nAI invalidates these assumptions.\n\nAs a result, many roles being hired for today:\n\n- are optimised for a world that no longer exists\n- measure output instead of learning speed\n- separate product and engineering too rigidly\n\n## Whyat might be the new role?\n\n**Technical Outcome Lead**\n\n- Frames problems before building\n- Uses AI to explore solution space rapidly\n- Delivers PoCs in days, not sprints\n- Knows when to stop prototyping and harden\n- Protects data, security, and long‑term optionality\n- Collapses handoffs between product, design, and engineering\n\nThis role is about turning uncertainty into working, robust systems quickly.\n\n## Development Philosophy\n\n### Order of Operations (Critical)\n\nScreens are cheap. Data models are not.\n\nCorrect sequence:\n\n```text\nOutcome → Actors → Tasks → Data → APIs → UI\n```\n\nUI is deliberately delayed until:\n\n- responsibilities are clear\n- data flows are understood\n- failure modes are considered\n\n## Speed vs Robustness\n\nSpeed is not the enemy of quality — _uncontrolled speed is_.\n\nA practical approach:\n\n```text\nPhase 1: Fast PoC\n- validate direction\n- explore solution space\n- accept disposability\n\nPhase 2: Hardening\n- lock data models\n- define API contracts\n- secure auth boundaries\n- introduce observability\n```\n\nAI compresses Phase 1 dramatically.\nJudgement determines when Phase 2 begins.\n"
   }
 ]
