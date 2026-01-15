@@ -1,7 +1,7 @@
 [
   {
-    "title": "Home",
-    "description": "Choose your path, Padwan",
+    "title": "Goldlabel",
+    "description": "Modern web apps for clients who need real results fast",
     "slug": "/",
     "order": 1,
     "type": "folder",
@@ -133,7 +133,8 @@
               "AI",
               "Experience"
             ],
-            "excerpt": "The core tension is this: Software development has undergone a step‑change due to AI, but many hiring conversations, job descriptions, and interview processes have not.\n\n What AI Has Actually Changed\n"
+            "excerpt": "The core tension is this: Software development has undergone a step‑change due to AI, but many hiring conversations, job descriptions, and interview processes have not.\n\n What AI Has Actually Changed\n",
+            "newContent": true
           },
           {
             "title": "Example",
@@ -922,8 +923,7 @@
                       "nextjs",
                       "flickr"
                     ],
-                    "excerpt": "REST has been the backbone of web communication for two decades\n\n[LinkOut title=\"Example API\" icon=\"api\" url=\"/api\"]\n\nEffective when it is structured clearly, documented properly, and resilient under ",
-                    "newContent": true
+                    "excerpt": "REST has been the backbone of web communication for two decades\n\n[LinkOut title=\"Example API\" icon=\"api\" url=\"/api\"]\n\nEffective when it is structured clearly, documented properly, and resilient under "
                   },
                   {
                     "title": "DevOps",
@@ -1101,7 +1101,7 @@
           "NextJS",
           "Headless CMS"
         ],
-        "excerpt": "Goldlabel builds and ships modern web apps for clients who need real results fast\n\n Small team. Big output\n Real deployments from Day One\n Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" "
+        "excerpt": "Small team. Big output\n Real deployments from Day One\n Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" pages=\"/work/thechangingdevrole, /work/about, /work/skills, /work/experience\"]"
       },
       {
         "title": "Life",
@@ -1411,8 +1411,7 @@
               "tefl",
               "coding"
             ],
-            "excerpt": "Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nLevel 5 TEFL Diploma, a UKregulated te",
-            "newContent": true
+            "excerpt": "Learn the English you need to code, collaborate and work confidently in global software teams. Technical English for Coding, Collaboration and Engineering Teams\n\nLevel 5 TEFL Diploma, a UKregulated te"
           },
           {
             "title": "Diving",

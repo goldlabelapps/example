@@ -6,21 +6,18 @@ import { TCore, TConfig } from './types';
 import * as React from 'react';
 import { usePathname } from 'next/navigation';
 import {
-  useMediaQuery,
   Box,
-  IconButton,
+  CardHeader,
   Container,
   Collapse,
   Grid,
   Typography,
-  Tooltip,
 } from '@mui/material';
 import {
   PageBreadcrumb,
   useIsMobile,
   useVersionCheck,
   useDispatch,
-  // useSiblings,
   SharePopup,
   Icon,
 } from '../gl-core';
@@ -45,16 +42,10 @@ import FeaturedImage from './cartridges/DesignSystem/components/FeaturedImage';
 const config = configRaw as TConfig;
 
 export default function Goldlabel({ frontmatter, body = null }: TCore) {
-  const dispatch = useDispatch();
-  const newContent = useNewContent();
-  const search = useSearch();
-
   const { noImage, image, icon, title, description, paywall, tags } =
     frontmatter ?? {};
-
-  const [showWhatsNew, setShowWhatsNew] = React.useState(false);
-
-  // const siblings = useSiblings();
+  const dispatch = useDispatch();
+  const newContent = useNewContent();
   const pathname = usePathname();
   const { themeMode } = useDesignSystem();
   const isMobile = useIsMobile();
@@ -75,7 +66,6 @@ export default function Goldlabel({ frontmatter, body = null }: TCore) {
   useVersionCheck();
 
   const effectiveThemeMode = themeMode === null ? 'light' : themeMode;
-
   const isAuthed = !!(user && user.uid);
 
   const mdSize = React.useMemo(() => {
@@ -97,70 +87,57 @@ export default function Goldlabel({ frontmatter, body = null }: TCore) {
                 </Box>
               </Grid>
             )}
+            <Grid size={{ xs: 12, md: 9 }}>
+              <CardHeader
+                sx={{ flexGrow: 1 }}
+                avatar={<Icon icon={icon as any} color="primary" />}
+                title={
+                  <Typography
+                    variant="h1"
+                    color="primary"
+                    sx={{
+                      fontSize: { xs: '1.6rem', md: '2rem' },
+                    }}
+                  >
+                    {title !== 'Home' ? title : 'Goldlabel'}
+                  </Typography>
+                }
+                subheader={
 
-            <Grid size={{ xs: 11, md: 9 }}>
-              <Box sx={{ display: 'flex' }}>
-                <Box sx={{ mr: 2, mt: 1.5 }}>
-                  <Icon icon={icon as any} color="primary" />
-                </Box>
-                <Typography
-                  variant="h1"
-                  color="primary"
-                  sx={{
-                    mt: 0.7,
-                    fontSize: { xs: '1.6rem', md: '2rem' },
-                  }}
-                >
-                  {title !== 'Home' ? title : 'Goldlabel'}
-                </Typography>
-                <Box sx={{ flexGrow: 1 }} />
-                {isMobile && (
-                  <Box>
-                    <Navigation />
-                  </Box>
-                )}
-              </Box>
+                  <Typography
+                    variant="h2"
+                    sx={{
+                      fontSize: { xs: '1.1rem', md: '1.25rem' },
+                    }}
+                  >
+                    {description}
+                  </Typography>
 
-              <Typography
-                variant="h2"
-                sx={{
-                  my: 1,
-                  fontSize: { xs: '1.1rem', md: '1.25rem' },
-                }}
-              >
-                {description}
-              </Typography>
+                }
+                action={<>
+                  <SharePopup />
+                  {isMobile && (
+                    <>
+                      <Navigation />
+                    </>
+                  )}
+                </>}
+              />
 
               {title !== 'Home' && pathname !== '/' && <PageBreadcrumb />}
 
               {/* Tags + New Toggle + Share */}
               <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                <Box sx={{ ml: -1 }}>
-                  <Tags tags={tags} />
-                </Box>
-                {newContent && (
-                  <>
-                    {newContent?.length > 0 && (
-                      <Tooltip title="What's New" arrow>
-                        <IconButton
-                          color="secondary"
-                          onClick={() => setShowWhatsNew((v) => !v)}
-                        >
-                          <Icon icon="news" />
-                        </IconButton>
-                      </Tooltip>
-                    )}
-                  </>
-                )}
+
+
                 <Box sx={{ mr: 1 }}>
-                  <SharePopup />
                 </Box>
               </Box>
 
-              <Collapse in={showWhatsNew} unmountOnExit>
+              <Collapse in={true} unmountOnExit>
                 <Grid container spacing={1} sx={{ mt: 1 }}>
                   {newContent?.map((item: any, i: number) => (
-                    <Grid key={`page_${i}`} size={{ xs: 12, md: mdSize }}>
+                    <Grid key={`page_${i}`} size={{ xs: 12 }}>
                       <NewContent slug={item.slug} />
                     </Grid>
                   ))}
@@ -194,7 +171,9 @@ export default function Goldlabel({ frontmatter, body = null }: TCore) {
                     <RenderMarkdown>{body}</RenderMarkdown>
                   </>
                 )}
+                <Tags tags={tags} />
               </Box>
+
             </Grid>
           </Grid>
         </Box>

@@ -6,7 +6,6 @@ description: Goldlabel RESTful API
 icon: techstack
 image: /png/3rdParty/next_og.png
 tags: free, api, restful, endpoints, next, nextjs, flickr
-newContent: true
 ---
 
 > REST has been the backbone of web communication for two decades
