@@ -2012,6 +2012,6 @@
       "life",
       "balance"
     ],
-    "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]"
+    "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]"
   }
 ]
