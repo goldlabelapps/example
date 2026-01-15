@@ -83,9 +83,9 @@
     "slug": "balance/index",
     "title": "Balance",
     "description": "Were you the kind of kid who liked Lego?",
-    "image": "https://live.staticflickr.com/65535/55017757554_8d463c2b1a_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55042136837_2c9d12d414_b.jpg",
     "tags": [],
-    "content": "\n> If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are [Generation X](/balance/books/douglas-coupland/generation-x)\n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]\n"
+    "content": "\n> If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are [Generation X](/balance/books/douglas-coupland/generation-x)\n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]\n\n## What can we expect from 2026?\n\nInstead of asking how AI will help us do a Jigsaw puzzle, we'll focus on explaining to AI why jigsaws exist. They give us something to do. Otherwise we'd just pick peanuts out of poo, eat the peanuts and fling the poo at each other\n"
   },
   {
     "slug": "balance/pictures/index",
@@ -179,7 +179,7 @@
     "slug": "balance/words/index",
     "title": "Words",
     "description": "It was a dark and stormy night…",
-    "image": "https://live.staticflickr.com/65535/54935913815_ed25e30042_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55042134422_16df78eb7d_b.jpg",
     "tags": [],
     "content": "\n> Snoopy’s line “It was a dark and stormy night…” is a deliberate parody of the famously bad opening sentence from Edward Bulwer-Lytton’s 1830 novel Paul Clifford. That sentence became a cultural shorthand for overwrought, clichishy writing.\n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words/not-here-to-fuck-spiders, /balance/words/der-kleine-zeppelin\"]\n"
   },
@@ -210,10 +210,10 @@
   {
     "slug": "index",
     "title": "Home",
-    "description": "What can we expect from 2026?",
+    "description": "Choose your path, Padwan",
     "image": "https://live.staticflickr.com/65535/55043218958_d4d954d513_b.jpg",
     "tags": "2026, JavaScript, Next Gen, Next.js, example app, Gen X, goldlabel, AI Prompt Engineering, ChatGPT, OpenAI, Singularity, Frontend, Vanilla JS, TypeScript, React, Material UI, MUI, Flash, SSR, SSG, Node, NextJS, Headless CMS, secure, work, life, balance",
-    "content": "\nInstead of asking how AI will help us do a Jigsaw puzzle, we'll focus on explaining to AI why jigsaws exist. They give us something to do. Otherwise we'd just pick peanuts out of poo, eat the peanuts and fling the poo at each other\n\n[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]\n"
+    "content": "\n[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]\n"
   },
   {
     "slug": "life/aquaponics/index",
@@ -515,7 +515,7 @@
     "slug": "life/index",
     "title": "Life",
     "description": "Generation X at 50",
-    "image": "https://live.staticflickr.com/65535/55016604557_0c679df5b8_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55042131557_edc53256a7_b.jpg",
     "tags": [],
     "content": "\n> ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a 1991 novel written by Canadian author Douglas Coupland\n\n[PageGrid thumbnails=\"no\" pages=\"/life/books, /life/food, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\nI work remotely. I cook, eat, ride motorbikes and scuba dive. Skiing used to be my favourite, but I'm a bit old now. I lost toes and broke a hip, so at my age maybe it's time to take up sailing. We are [Generation X](/life/books/douglas-coupland/generation-x)\n"
   },
@@ -787,7 +787,7 @@
     "slug": "work/index",
     "title": "Work",
     "description": "20+ Years of coding",
-    "image": "https://live.staticflickr.com/65535/55017672828_1753510293_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55043207718_0af207d889_b.jpg",
     "tags": "Professional, JavaScript, Vanilla JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, Gatsby, NextJS, Headless CMS",
     "content": "\n> Goldlabel builds and ships modern web apps for clients who need real results fast\n\n- _Small_ team. _Big_ output\n- Real deployments from Day One\n- Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" pages=\"/work/the-changing-dev-role, /work/about, /work/skills, /work/experience, /work/example\"]\n"
   },

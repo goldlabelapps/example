@@ -8,4 +8,4 @@ icon: home
 tags: 2026, JavaScript, Next Gen, Next.js, example app, Gen X, goldlabel, AI Prompt Engineering, ChatGPT, OpenAI, Singularity, Frontend, Vanilla JS, TypeScript, React, Material UI, MUI, Flash, SSR, SSG, Node, NextJS, Headless CMS, secure, work, life, balance
 ---
 
-[PageGrid thumbnails="yes" pages="/work, /life, /balance"]
+[PageGrid thumbnails="no" pages="/work, /life, /balance"]

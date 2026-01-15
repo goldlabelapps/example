@@ -1,7 +1,7 @@
 [
   {
     "title": "Home",
-    "description": "What can we expect from 2026?",
+    "description": "Choose your path, Padwan",
     "slug": "/",
     "order": 1,
     "type": "folder",
@@ -1085,7 +1085,7 @@
           }
         ],
         "icon": "work",
-        "image": "https://live.staticflickr.com/65535/55017672828_1753510293_b.jpg",
+        "image": "https://live.staticflickr.com/65535/55043207718_0af207d889_b.jpg",
         "tags": [
           "Professional",
           "JavaScript",
@@ -1714,7 +1714,7 @@
           }
         ],
         "icon": "life",
-        "image": "https://live.staticflickr.com/65535/55016604557_0c679df5b8_b.jpg",
+        "image": "https://live.staticflickr.com/65535/55042131557_edc53256a7_b.jpg",
         "excerpt": "⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a 1991 novel written by Canadian author Douglas Coupland\n\n[PageGrid thumbnails=\"no\" pages=\"/life/books, /life/food, /life/motor"
       },
       {
@@ -1972,13 +1972,13 @@
               }
             ],
             "icon": "writing",
-            "image": "https://live.staticflickr.com/65535/54935913815_ed25e30042_b.jpg",
+            "image": "https://live.staticflickr.com/65535/55042134422_16df78eb7d_b.jpg",
             "excerpt": "Snoopy’s line “It was a dark and stormy night…” is a deliberate parody of the famously bad opening sentence from Edward BulwerLytton’s 1830 novel Paul Clifford. That sentence became a cultural shortha"
           }
         ],
         "icon": "balance",
-        "image": "https://live.staticflickr.com/65535/55017757554_8d463c2b1a_b.jpg",
-        "excerpt": "If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are \n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]"
+        "image": "https://live.staticflickr.com/65535/55042136837_2c9d12d414_b.jpg",
+        "excerpt": "If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are \n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]\n\n Wha"
       }
     ],
     "icon": "home",
@@ -2012,6 +2012,6 @@
       "life",
       "balance"
     ],
-    "excerpt": "Instead of asking how AI will help us do a Jigsaw puzzle, we'll focus on explaining to AI why jigsaws exist. They give us something to do. Otherwise we'd just pick peanuts out of poo, eat the peanuts "
+    "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]"
   }
 ]
