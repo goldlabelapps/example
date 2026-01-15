@@ -1,7 +1,7 @@
 // /Users/goldlabel/GitHub/core/gl-core/cartridges/DesignSystem/components/NewContent.tsx
 'use client';
 import * as React from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import { Box, Badge, Typography, Alert, ButtonBase } from '@mui/material';
 import { Icon, routeTo, useDispatch } from '../../../../gl-core';
 import { useBySlug } from '../../Uberedux';
@@ -12,10 +12,16 @@ export interface INewContent {
 }
 
 export default function NewContent({ slug }: INewContent) {
+
   const content = useBySlug(slug || '');
   const dispatch = useDispatch();
   const router = useRouter();
+  const pathname = usePathname();
   if (!content) return null;
+  // If current path matches slug, do not render
+  if (pathname === `${slug}`) return null;
+  console.log('slug', slug);
+  console.log('pathname', pathname);
 
   const { paywall } = content;
 
