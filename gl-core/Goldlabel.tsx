@@ -88,6 +88,17 @@ export default function Goldlabel({ frontmatter, body = null }: TCore) {
               </Grid>
             )}
             <Grid size={{ xs: 12, md: 9 }}>
+
+              <Collapse in={true} unmountOnExit>
+                <Grid container spacing={1} sx={{ mt: 1 }}>
+                  {newContent?.map((item: any, i: number) => (
+                    <Grid key={`page_${i}`} size={{ xs: 12 }}>
+                      <NewContent slug={item.slug} />
+                    </Grid>
+                  ))}
+                </Grid>
+              </Collapse>
+
               <CardHeader
                 sx={{ flexGrow: 1 }}
                 avatar={<Icon icon={icon as any} color="primary" />}
@@ -103,7 +114,6 @@ export default function Goldlabel({ frontmatter, body = null }: TCore) {
                   </Typography>
                 }
                 subheader={
-
                   <Typography
                     variant="h2"
                     sx={{
@@ -112,37 +122,20 @@ export default function Goldlabel({ frontmatter, body = null }: TCore) {
                   >
                     {description}
                   </Typography>
-
                 }
-                action={<>
-                  <SharePopup />
-                  {isMobile && (
-                    <>
-                      <Navigation />
-                    </>
-                  )}
-                </>}
+                action={
+                  <>
+                    <SharePopup />
+                    {isMobile && (
+                      <>
+                        <Navigation />
+                      </>
+                    )}
+                  </>
+                }
               />
 
               {title !== 'Home' && pathname !== '/' && <PageBreadcrumb />}
-
-              {/* Tags + New Toggle + Share */}
-              <Box sx={{ display: 'flex', alignItems: 'center' }}>
-
-
-                <Box sx={{ mr: 1 }}>
-                </Box>
-              </Box>
-
-              <Collapse in={true} unmountOnExit>
-                <Grid container spacing={1} sx={{ mt: 1 }}>
-                  {newContent?.map((item: any, i: number) => (
-                    <Grid key={`page_${i}`} size={{ xs: 12 }}>
-                      <NewContent slug={item.slug} />
-                    </Grid>
-                  ))}
-                </Grid>
-              </Collapse>
 
               <Box sx={{ mt: 2, mb: '80px' }}>
                 {paywall === true && !isAuthed ? (
@@ -171,9 +164,8 @@ export default function Goldlabel({ frontmatter, body = null }: TCore) {
                     <RenderMarkdown>{body}</RenderMarkdown>
                   </>
                 )}
-                <Tags tags={tags} />
+                {/* <Tags tags={tags} /> */}
               </Box>
-
             </Grid>
           </Grid>
         </Box>
